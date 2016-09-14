@@ -9,6 +9,7 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Random;
+import java.util.concurrent.ExecutionException;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -43,10 +44,13 @@ import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
+import android.net.wifi.WifiInfo;
+import android.net.wifi.WifiManager;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.os.Handler;
 import android.provider.Settings.Secure;
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.Context;
@@ -57,12 +61,14 @@ import android.content.pm.PackageInfo;
 import android.content.pm.PackageManager;
 import android.content.pm.PackageManager.NameNotFoundException;
 import android.content.res.Configuration;
+import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.telephony.TelephonyManager;
 import android.text.Html;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
@@ -72,6 +78,7 @@ import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.AdapterView.OnItemSelectedListener;
+import android.widget.Toast;
 
 public class CategorizationScreen extends AppCompatActivity implements ApplicationConstants {
 
@@ -101,7 +108,7 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
     private Spinner categorization;
     private MenuItem listGridConvertor;
     private GridView gridViewCategoriesText;
-    private LinearLayout mainCategorizationLinearLayout;
+    private LinearLayout mainCategorizationLinearLayout, PersonalizeLayout;
     private RelativeLayout catzation_Relative_Background;
     private Bitmap bitmap;
 
@@ -142,7 +149,7 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
             CATZ_preferences = getSharedPreferences(PREFS_CATZ_NAME, Context.MODE_PRIVATE);
             adManager = new AdManager(CategorizationScreen.this);
             SSLManager.handleSSLHandshake(); //For SSL Request
-        }catch (Exception e) {e.printStackTrace();noInternetPresent();}
+        }catch (Exception e) {e.printStackTrace();}
 
         //Initialize View
         categorization = (Spinner) findViewById(R.id.categorizationSpinner);
@@ -151,11 +158,14 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
         progressBar = (ProgressBar) findViewById(R.id.catz_progressbar);
         catzation_Relative_Background = (RelativeLayout) findViewById(R.id.catzation_Relative);
         mainCategorizationLinearLayout = (LinearLayout) findViewById(R.id.CategorizationMainLinearLayout);
+        PersonalizeLayout = (LinearLayout) findViewById(R.id.PersonalizeLayout);
         adView = (AdView) CategorizationScreen.this.findViewById(R.id.adView);
         catZationGridAdapter = new CategorizationBaseAdapter(this, catZationModeList);
         categoriGridBaseAdapter = new CategoryGridBaseAdapter(CategorizationScreen.this, categoriesModeList);
         categoriListBaseAdapter = new CategoryListBaseAdapter(CategorizationScreen.this, categoriesModeList);
         mainCategorizationLinearLayout.setVisibility(View.GONE);
+        PersonalizeLayout.setVisibility(View.GONE);
+        gridViewCategoriesText.setVisibility(View.GONE);
         catZationGridAdapter.clearCatzList();
 
         cic = new CheckInternetConnection(getApplicationContext());
@@ -360,7 +370,6 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
                 } catch (Exception e) {
                     e.printStackTrace();
                     hidePDialog();
-                    noInternetPresent();
                 }
                 catZationGridAdapter.notifyDataSetChanged();
             }
@@ -423,32 +432,44 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
                     // Getting the inner Linear Layout if it is used :LinearLayout
                     // linearLayoutChild = (LinearLayout )
                     // linearLayoutParent.getChildAt(1); 1 indicate position
-                    TextView tvSpinName = (TextView) linearLayoutParent.getChildAt(1);
-                    String NOW_SELECTED_CATEGORIZATION_ID = tvSpinName.getText().toString();
+                    TextView tvSpinName = (TextView) linearLayoutParent.getChildAt(0);
+                    String NOW_SELECTED_CATEGORIZATION_NAME = tvSpinName.getText().toString();
 
-                    if (flag == false) {
-                        gridViewCategoriesText.setAdapter(categoriGridBaseAdapter);
-                        gridViewCategoriesText.setNumColumns(2);
-                        listGridConvertor.setIcon(R.drawable.ic_action_view_as_list);
-                        flag = false;
-                    } else {
-                        gridViewCategoriesText.setAdapter(categoriListBaseAdapter);
-                        gridViewCategoriesText.setNumColumns(1);
-                        listGridConvertor.setIcon(R.drawable.ic_action_view_as_grid);
-                        flag = true;
+                    TextView tvSpinId = (TextView) linearLayoutParent.getChildAt(1);
+                    String NOW_SELECTED_CATEGORIZATION_ID = tvSpinId.getText().toString();
+
+                    if (NOW_SELECTED_CATEGORIZATION_NAME.equalsIgnoreCase("Personalized")){
+                        gridViewCategoriesText.setVisibility(View.GONE);
+                        PersonalizeLayout.setVisibility(View.VISIBLE);
+                    }
+                    else {
+                        PersonalizeLayout.setVisibility(View.GONE);
+                        gridViewCategoriesText.setVisibility(View.VISIBLE);
+                        if (flag == false) {
+                            gridViewCategoriesText.setAdapter(categoriGridBaseAdapter);
+                            gridViewCategoriesText.setNumColumns(2);
+                            listGridConvertor.setIcon(R.drawable.ic_action_view_as_list);
+                            flag = false;
+                        } else {
+                            gridViewCategoriesText.setAdapter(categoriListBaseAdapter);
+                            gridViewCategoriesText.setNumColumns(1);
+                            listGridConvertor.setIcon(R.drawable.ic_action_view_as_grid);
+                            flag = true;
+                        }
+
+                        //Requesting and calling method for getting categories
+                        LoadCategories(APP_ID, NOW_SELECTED_CATEGORIZATION_ID, deviceID.toString());
                     }
 
-                    //Requesting and calling method for getting categories
-                    LoadCategories(APP_ID, NOW_SELECTED_CATEGORIZATION_ID, deviceID.toString());
+                        int SELECTED_CATEGORIZATION_ID = categorization.getSelectedItemPosition();
+                        System.out.println("SELECTED_CATEGORIZATION_ID = " + SELECTED_CATEGORIZATION_ID);
+                        PREVIOUS_SELECTED_CATEGORIZATION_ID = SELECTED_CATEGORIZATION_ID + 1;
+                        CATZ_editor = CATZ_preferences.edit();
+                        CATZ_editor.putInt(PREFS_CATZ_KEY, PREVIOUS_SELECTED_CATEGORIZATION_ID);
+                        CATZ_editor.commit();
+                        System.out.println("SELECTED_CATEGORIZATION_ID + 1 = " + PREVIOUS_SELECTED_CATEGORIZATION_ID);
 
-                    int SELECTED_CATEGORIZATION_ID = categorization.getSelectedItemPosition();
-                    System.out.println("SELECTED_CATEGORIZATION_ID = " + SELECTED_CATEGORIZATION_ID);
-                    PREVIOUS_SELECTED_CATEGORIZATION_ID = SELECTED_CATEGORIZATION_ID + 1;
-                    CATZ_editor = CATZ_preferences.edit();
-                    CATZ_editor.putInt(PREFS_CATZ_KEY, PREVIOUS_SELECTED_CATEGORIZATION_ID);
-                    CATZ_editor.commit();
-                    System.out.println("SELECTED_CATEGORIZATION_ID + 1 = " + PREVIOUS_SELECTED_CATEGORIZATION_ID);
-                }catch (Exception e) {e.printStackTrace();noInternetPresent();}
+                }catch (Exception e) {e.printStackTrace();}
             }
 
             @Override
@@ -496,7 +517,7 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
                     intentcat.putExtra("ActivityNo", ActivityNo);
                     startActivity(intentcat);
                     CategorizationScreen.this.finish();
-                }catch (Exception e) {e.printStackTrace();noInternetPresent();}
+                }catch (Exception e) {e.printStackTrace();}
             }
         });
 
@@ -764,6 +785,7 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
     private void noInternetPresent(){
         Intent intent = new Intent(CategorizationScreen.this,
                 NoInternetScreen.class);
+        intent.putExtra("flag",flag);
         startActivity(intent);
         CategorizationScreen.this.finish();
     }
@@ -773,6 +795,16 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
         super.onConfigurationChanged(newConfig);
         if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT) {
         } else if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+        }
+    }
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent event) {
+        try {
+            return super.dispatchTouchEvent(event);
+        }
+        catch (Exception ignored){
+            return true;
         }
     }
 

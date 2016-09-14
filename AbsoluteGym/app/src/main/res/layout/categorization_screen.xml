@@ -18,7 +18,8 @@
             android:layout_gravity="center_horizontal"
             android:background="@color/app_theme_color"
             android:gravity="center_vertical"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:visibility="gone">
 
             <LinearLayout
                 android:id="@+id/HeaderLayout"
@@ -52,29 +53,69 @@
             android:layout_below="@+id/CategorizationMainLinearLayout"
             android:background="@color/app_theme_color" />
 
-            <GridView
-                android:id="@+id/gridViewCategoriesText"
+        <LinearLayout
+            android:id="@+id/PersonalizeLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/layout_background"
+            android:layout_below="@+id/view1"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginBottom="50dp"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/personalize"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_below="@+id/view1"
-                android:layout_marginLeft="3dp"
-                android:layout_marginRight="3dp"
-                android:layout_marginTop="3dp"
-                android:layout_marginBottom="53dp"
-                android:columnWidth="100dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
                 android:gravity="center"
-                android:horizontalSpacing="3dp"
-                android:stretchMode="columnWidth"
-                android:verticalSpacing="3dp">
-            </GridView>
-            <include
-                android:id="@+id/catz_ad_container"
+                android:text="@string/personalize_text"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:textColor="@color/ad_bg_color"/>
+
+            <TextView
+                android:id="@+id/commingSoon"
                 android:layout_width="match_parent"
-                android:layout_height="50dp"
-                android:layout_alignParentBottom="true"
-                layout="@layout/categorization_ad_layout"
-                android:visibility="visible" >
-            </include>
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:padding="5dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/comming_soon"
+                android:textSize="40dp"
+                android:textStyle="bold|italic"
+                android:textColor="@color/app_theme_color"/>
+
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/gridViewCategoriesText"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/view1"
+            android:layout_marginBottom="53dp"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:layout_marginTop="3dp"
+            android:columnWidth="100dp"
+            android:gravity="center"
+            android:horizontalSpacing="3dp"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="3dp"
+            android:visibility="gone"></GridView>
+        <include
+            android:id="@+id/catz_ad_container"
+            layout="@layout/categorization_ad_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:visibility="visible"></include>
 
     </RelativeLayout>
 </LinearLayout>

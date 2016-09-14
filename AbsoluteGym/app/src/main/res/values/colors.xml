@@ -2,7 +2,7 @@
 <resources>
     <color name="app_theme_color">#1564da</color>
     <color name="app_theme_darker_color">#031ca7</color>
-
+    
     <!--Make sure do not change below color-->
     <color name="white_color">#FFFFFF</color>
     <color name="gray_color">#CCCCCC</color>

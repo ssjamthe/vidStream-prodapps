@@ -1,12 +1,15 @@
 package com.appify.vidstream.app_12;
 
+import android.R.anim;
 import android.os.Bundle;
 import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.Configuration;
+import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.Menu;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
@@ -35,33 +38,51 @@ public class NoInternetScreen extends AppCompatActivity {
 			flag = false;
 		}
 
+		try{
+			CategorizationScreen categorizationScreen = new CategorizationScreen();
+			categorizationScreen.finish();
+			CategoryScreen categoryScreen = new CategoryScreen();
+			categoryScreen.finish();
+			FeedbackForm feedbackForm = new FeedbackForm();
+			feedbackForm.finish();
+			YoutubePlayer youtubePlayer = new YoutubePlayer();
+			youtubePlayer.finish();
+		}catch (Exception e){e.printStackTrace();}
+
         netImg = (ImageView) findViewById(R.id.netImage);
         netImg.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				Intent intent = new Intent(NoInternetScreen.this,CategorizationScreen.class);
-				intent.putExtra("flag",flag);
-				startActivity(intent);
-				NoInternetScreen.this.finish();
+				try {
+					Intent intent = new Intent(NoInternetScreen.this, CategorizationScreen.class);
+					intent.putExtra("flag", flag);
+					startActivity(intent);
+					NoInternetScreen.this.finish();
+				}catch (Exception e){e.printStackTrace();NoInternetScreen.this.finish();}
 			}
 		});
         netText = (TextView) findViewById(R.id.netText);
         netText.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				Intent intent = new Intent(NoInternetScreen.this,CategorizationScreen.class);
-				intent.putExtra("flag",flag);
-				NoInternetScreen.this.finish();
+				try{
+					Intent intent = new Intent(NoInternetScreen.this,CategorizationScreen.class);
+					intent.putExtra("flag",flag);
+					startActivity(intent);
+					NoInternetScreen.this.finish();
+				}catch (Exception e){e.printStackTrace();NoInternetScreen.this.finish();}
 			}
 		});
         retry = (TextView) findViewById(R.id.sub_net_text);
         retry.setOnClickListener(new View.OnClickListener() {
 			@Override
 			public void onClick(View arg0) {
-				Intent intent = new Intent(NoInternetScreen.this,CategorizationScreen.class);
-				intent.putExtra("flag",flag);
-				startActivity(intent);
-				NoInternetScreen.this.finish();
+				try {
+					Intent intent = new Intent(NoInternetScreen.this, CategorizationScreen.class);
+					intent.putExtra("flag", flag);
+					startActivity(intent);
+					NoInternetScreen.this.finish();
+				}catch (Exception e){e.printStackTrace();NoInternetScreen.this.finish();}
 			}
 		});
 	}
@@ -71,6 +92,16 @@ public class NoInternetScreen extends AppCompatActivity {
 		super.onConfigurationChanged(newConfig);
 		 if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT) {} 
 		 else if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {}
+	}
+
+	@Override
+	public boolean dispatchTouchEvent(MotionEvent event) {
+		try {
+			return super.dispatchTouchEvent(event);
+		}
+		catch (Exception ignored){
+			return true;
+		}
 	}
 
 	@Override

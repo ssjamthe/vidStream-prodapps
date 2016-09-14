@@ -47,18 +47,21 @@ import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.annotation.SuppressLint;
 import android.app.AlertDialog;
 import android.app.ProgressDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.Handler;
+import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.MenuItem.OnMenuItemClickListener;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AbsListView;
 import android.widget.AdapterView;
@@ -138,7 +141,7 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
             preferences = getSharedPreferences(PREFS_NAME, Context.MODE_PRIVATE);
             adManager = new AdManager(CategoryScreen.this);
             SSLManager.handleSSLHandshake(); //For SSL Request
-        }catch (Exception e) {e.printStackTrace();noInternetPresent();}
+        }catch (Exception e) {e.printStackTrace();}
 
         //Initialize Views
         orderByRelativeLayout = (RelativeLayout) findViewById(R.id.orderByRelativeLayout);
@@ -265,7 +268,7 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
                 videoGridList.setNumColumns(1);
                 flag = true;
             }
-        }catch (Exception e) {e.printStackTrace();noInternetPresent();}
+        }catch (Exception e) {e.printStackTrace();}
 
         //For Background Image
         try {
@@ -306,7 +309,6 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
 
         }catch (Exception e) {
             e.printStackTrace();
-            noInternetPresent();
         }
     }
     /**********
@@ -474,7 +476,7 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
                        ActivityNo = ActivityNo + 1;
                        Log.e("After Add 1 ActivityNo from Intent>>>", "And set ActivityNo = " + ActivityNo + ";");
                        RefreshCatVid();
-                   }catch (Exception e){e.printStackTrace();noInternetPresent();}
+                   }catch (Exception e){e.printStackTrace();}
                 }
             });
 
@@ -511,7 +513,7 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
 
                         //Requesting and calling method for getting Videos
                         LoadVideos(APP_ID, OrderAttributeCategoryValue, SelectedOrderValue, CatPageNo, EntriesPerPage_Position, getdeviceID);
-                    }catch (Exception e){e.printStackTrace();noInternetPresent();}
+                    }catch (Exception e){e.printStackTrace();}
                 }
                 @Override
                 public void onNothingSelected(AdapterView<?> arg0) {
@@ -519,7 +521,6 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
             });
         } catch (Exception e) {
             e.printStackTrace();
-            noInternetPresent();
         }
     }//End WebServices
 
@@ -898,12 +899,13 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
             ref.putExtra("ActivityNo", ActivityNo);
             startActivity(ref);
             CategoryScreen.this.finish();
-        }catch (Exception e){e.printStackTrace();noInternetPresent();}
+        }catch (Exception e){e.printStackTrace();}
     }
 
     private void noInternetPresent(){
         Intent intent = new Intent(CategoryScreen.this,
                 NoInternetScreen.class);
+        intent.putExtra("flag",flag);
         startActivity(intent);
         CategoryScreen.this.finish();
     }
@@ -950,7 +952,7 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
                     RefreshCatVid();  //Refresh
                 }
             }
-        }catch (Exception e){e.printStackTrace();noInternetPresent();}
+        }catch (Exception e){e.printStackTrace();}
     }
 
     @Override
@@ -958,6 +960,16 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
         super.onConfigurationChanged(newConfig);
         if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT) {
         } else if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
+        }
+    }
+
+    @Override
+    public boolean dispatchTouchEvent(MotionEvent event) {
+        try {
+            return super.dispatchTouchEvent(event);
+        }
+        catch (Exception ignored){
+            return true;
         }
     }
 
@@ -999,7 +1011,7 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
                         flag = false;
                     }
                 } catch (Exception e) {
-                    e.printStackTrace();noInternetPresent();
+                    e.printStackTrace();
                 }
                 return false;
             }

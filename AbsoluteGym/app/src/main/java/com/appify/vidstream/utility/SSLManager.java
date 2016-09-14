@@ -2,6 +2,7 @@ package com.appify.vidstream.utility;
 
 import android.annotation.SuppressLint;
 import java.security.SecureRandom;
+import java.security.cert.CertificateEncodingException;
 import java.security.cert.X509Certificate;
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.HttpsURLConnection;
@@ -24,7 +25,7 @@ public class SSLManager {
                 }
 
                 @Override
-                public void checkServerTrusted(X509Certificate[] certs, String authType) {
+                public void checkServerTrusted(X509Certificate[] certs, String authType){
                 }
             }};
 
