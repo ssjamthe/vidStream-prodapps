@@ -108,7 +108,7 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
 		setContentView(R.layout.youtube_player);
 
 		try{
-			//Fresco.initialize(this); 93>98
+			//Fresco.initialize(this);
 			InMobiSdk.setLogLevel(InMobiSdk.LogLevel.DEBUG);
 			InMobiSdk.init(this, INMOBI_ACCOUNT_ID);
 			//Sheared Preferences
