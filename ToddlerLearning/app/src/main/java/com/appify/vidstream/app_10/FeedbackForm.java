@@ -142,7 +142,7 @@ public class FeedbackForm extends AppCompatActivity implements ApplicationConsta
         tv_edit_counter.setText("0 / 500");
         ed_feedback.addTextChangedListener(mTextEditorWatcher);
 
-        ed_feedback.setOnFocusChangeListener(new View.OnFocusChangeListener() {
+        /*ed_feedback.setOnFocusChangeListener(new View.OnFocusChangeListener() {
             @Override
             public void onFocusChange(View v, boolean hasFocus) {
                 try {
@@ -156,7 +156,7 @@ public class FeedbackForm extends AppCompatActivity implements ApplicationConsta
                     }
                 }catch (Exception e){e.printStackTrace();}
             }
-        });
+        });*/
 
         feedback_linear.setOnClickListener(new View.OnClickListener() {
             @Override

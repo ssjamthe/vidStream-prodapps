@@ -137,7 +137,7 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
         super.onCreate(savedInstanceState);
         setContentView(R.layout.categorization_screen);
 
-        //For ActionBar Background  137>136
+        //For ActionBar Background
         //getSupportActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.action_bar_rect));
 
         //Fresco.initialize(this);
@@ -269,7 +269,7 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
             long NewShowTime = new Date().getTime() / 1000;
             Log.e("AdShowTime = ", "" + NewShowTime);
             adManager.setNewTime(NewShowTime);
-            long GetShowTime = adManager.getNewTime(); //Get New Time From AdManager
+            //long GetShowTime = adManager.getNewTime(); //Get New Time From AdManager
             ActivityNo = 1;
             PrevActivityNo = 1;
             editor = preferences.edit();
@@ -318,7 +318,6 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
             public void onResponse(JSONObject response) {
                 // for categorization
                 try {
-
                     // for banner, mininterval, background.
                     showBanner = response.getString("showBanner");
                     Log.e("showBanner: ", showBanner);
@@ -438,7 +437,7 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
                     TextView tvSpinId = (TextView) linearLayoutParent.getChildAt(1);
                     String NOW_SELECTED_CATEGORIZATION_ID = tvSpinId.getText().toString();
 
-                    if (NOW_SELECTED_CATEGORIZATION_NAME.equalsIgnoreCase("Personalized")){
+                    if (NOW_SELECTED_CATEGORIZATION_NAME.equalsIgnoreCase(PERSONALIZED)){
                         gridViewCategoriesText.setVisibility(View.GONE);
                         PersonalizeLayout.setVisibility(View.VISIBLE);
                     }
@@ -520,7 +519,6 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
                 }catch (Exception e) {e.printStackTrace();}
             }
         });
-
     }
 
     /*******************************

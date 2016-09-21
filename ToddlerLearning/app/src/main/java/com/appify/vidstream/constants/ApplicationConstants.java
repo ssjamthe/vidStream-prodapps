@@ -19,7 +19,7 @@ public interface ApplicationConstants {
     //TODO:- Application Changes
     String APP_ID = "10";                                                   // Change APP_ID = "2"    // U'll get .apk file from "Appify\app\build\outputs\apk\app_debug.apk"
     String APP_NAME = "Toddler Learning";                                            // Change APP_NAME = ABC  // Also need to Change App Name From "app\res\values\strings.xml\app_name"
-    String APP_THEME_COLOR = "#ffaa00";                                     // Change APP_THEME_COLOR for Alert messages Appify text color  // Also Need to change colors from "app\res\values\colors.xml"
+    String APP_THEME_COLOR = "#15da19";                                     // Change APP_THEME_COLOR for Alert messages Appify text color  // Also Need to change colors from "app\res\values\colors.xml"
     String APP_PACKAGE = "com.appify.vidstream.app_10";                     // This required for IMEI // Change APP_PACKAGE = com.appify.vidstream.app_10  // Also need to Change Pkg Name at line no. 4 From "app\manifests\AndroidManifest.xml\package="com.appify.vidstream.app"" and Also from Gradle Scripts\build.gradle(Module: app)\applicationId "com.appify.vidstream.app"
 
     //TODO:- IP ADDRESS
@@ -47,17 +47,21 @@ public interface ApplicationConstants {
     String URL_YOUTUBEVIDEO = "videoViewed";
     String URL_FEEDBACKFORM = "feedbackForm";
 
-    //TODO:- For Order By Section and msgs
+    //TODO:- Other String msgs
+    String PERSONALIZED = "Personalized";
     String LOWINTERNET = "Low internet speed!";                             // Make sure do not change never ever
     String RETRY = "Do you want to retry?";                                 // Make sure do not change never ever
     String CANTBEREACHED = "Can't be reached!";                             // Make sure do not change never ever
     String TRYAGAIN = "Do you want to try again?";                          // Make sure do not change never ever
     String AUTHENTICATION_ERROR = "Problem accessing data. Authentication failed.";
     String UPDATING_APP = "Please try updating the app from Google Play Store.";
+    String RecentlyViewedID = "-1";
     String LOADSORTEDVIDEOSURL_UPLOADTIME = "Upload Time";                  // Make sure do not change never ever
     String LOADSORTEDVIDEOSURL_MOSTVIEWED = "Most Viewed";                  // Make sure do not change never ever
+    String LOADSORTEDVIDEOSURL_VIEWTIME = "View Time";                      // Make sure do not change never ever
     String LOADSORTEDVIDEOSURL_UPLOADTIMEID = "UploadTime";                 // Make sure do not change never ever
     String LOADSORTEDVIDEOSURL_MOSTVIEWEDID = "MostViewed";                 // Make sure do not change never ever
+    String LOADSORTEDVIDEOSURL_VIEWTIMEID = "ViewTime";                     // Make sure do not change never ever
 
     //TODO:- Token  key
     String TOKEN_KEY = "token";                                             // Make sure do not change never ever

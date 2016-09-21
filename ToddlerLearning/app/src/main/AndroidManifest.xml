@@ -97,6 +97,7 @@
             android:name="com.appify.vidstream.app_10.FeedbackForm"
             android:configChanges="orientation|keyboardHidden|screenSize"
             android:label="@string/feedback_form"
+            android:windowSoftInputMode="stateHidden"
             tools:ignore="UnusedAttribute"></activity>
     </application>
 
