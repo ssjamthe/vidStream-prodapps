@@ -2,7 +2,7 @@
 <resources>
 
     <string name="app_name">Toddler Learning</string>
-    <string name="banner_admob_ad_unit_id">ca-app-pub-9457891612292134/4990221400</string>
+    <string name="banner_admob_ad_unit_id">ca-app-pub-5359662406012495/6470261361</string>
 
     <string name="action_refresh">Refresh</string>
     <string name="hello_world">Hello world!</string>

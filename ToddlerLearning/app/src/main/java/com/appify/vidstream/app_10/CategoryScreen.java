@@ -72,6 +72,7 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class CategoryScreen extends AppCompatActivity implements ApplicationConstants {
 
@@ -129,7 +130,7 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
         super.onCreate(savedInstanceState);
         setContentView(R.layout.category_screen);
 
-        //For ActionBar Background and Visible BackArrow 124>129
+        //For ActionBar Background and Visible BackArrow
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
         //getSupportActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.action_bar_rect));
 
@@ -310,6 +311,7 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
         }catch (Exception e) {
             e.printStackTrace();
         }
+
     }
     /**********
      * End OnCreate()
@@ -343,10 +345,17 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
                 flag = true;
             }
 
+            String SendOrderAttribute = null;
+            if(Category_ID.equalsIgnoreCase(RecentlyViewedID)){
+                SendOrderAttribute = LOADSORTEDVIDEOSURL_VIEWTIMEID;
+            }else{
+                SendOrderAttribute = LOADSORTEDVIDEOSURL_UPLOADTIMEID;
+            }
+
             System.out.println("Page No = "+PAGE_NO);
             System.out.println("Entries = "+EntriesPerPage_Position);
             final String Cat1PageNo = String.valueOf(PAGE_NO);
-            final String loadChildCatURL = URL_IP_ADDRESS + URL_LOADCHILDCATEGORIES+"?appId="+URLEncoder.encode(APP_ID)+"&catId="+URLEncoder.encode(Category_ID)+"&orderAttr="+URLEncoder.encode(LOADSORTEDVIDEOSURL_UPLOADTIMEID)+"&page_no="+URLEncoder.encode(Cat1PageNo)+"&entries_per_page="+URLEncoder.encode(EntriesPerPage_Position)+"&deviceId="+URLEncoder.encode(getdeviceID);
+            final String loadChildCatURL = URL_IP_ADDRESS + URL_LOADCHILDCATEGORIES+"?appId="+URLEncoder.encode(APP_ID)+"&catId="+URLEncoder.encode(Category_ID)+"&orderAttr="+URLEncoder.encode(SendOrderAttribute)+"&page_no="+URLEncoder.encode(Cat1PageNo)+"&entries_per_page="+URLEncoder.encode(EntriesPerPage_Position)+"&deviceId="+URLEncoder.encode(getdeviceID);
             System.out.println("loadChildCatURL = "+loadChildCatURL);
             JsonObjectRequest childCategoryVideoRequest = new JsonObjectRequest(Request.Method.POST, loadChildCatURL, null, new Response.Listener<JSONObject>() {
                 @Override
@@ -371,7 +380,7 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
                         try {//Response for Order By Attributes
                             orderByRelativeLayout.setVisibility(View.VISIBLE);
                             JSONArray orderArray = childCategoryVideoResponse.getJSONArray("orderAttributes");
-                            for (int i = 0; i < childCategoryVideoResponse.length(); i++) {
+                            for (int i = 0; i <= childCategoryVideoResponse.length(); i++) {
                                 OrderByModel byModel = new OrderByModel();
                                 byModel.setOrderTitle(orderArray.getString(i));
                                 orderByModeList.add(byModel);
@@ -381,6 +390,7 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
                         }
                         System.out.println("Set Outer VideoThumbnailGridBaseAdapter ----------------->");
                         orderByAdapter.notifyDataSetChanged();
+                        System.out.println("orderByModeList>>>>>>"+orderByModeList);
                     }
                     childCategoryGridBaseAdapter.notifyDataSetChanged();
                     hidePDialog();
@@ -501,7 +511,10 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
                         if (selectedOrder.equals(LOADSORTEDVIDEOSURL_MOSTVIEWED)) {
                             SelectedOrderValue = LOADSORTEDVIDEOSURL_MOSTVIEWEDID;
                             PAGE_NO = 1;
-                        } else {
+                        } else if(selectedOrder.equals(LOADSORTEDVIDEOSURL_VIEWTIME)){
+                            SelectedOrderValue = LOADSORTEDVIDEOSURL_VIEWTIMEID;
+                            PAGE_NO = 1;
+                        } else{
                             SelectedOrderValue = LOADSORTEDVIDEOSURL_UPLOADTIMEID;
                             PAGE_NO = 1;
                         }
@@ -651,9 +664,6 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
                 @Override
                 public void onScroll(AbsListView view, int firstVisibleItem,
                                      int visibleItemCount, int totalItemCount) {
-                    // Now check if userScrolled is true and also check if
-                    // the item is end then update list view and set
-                    // userScrolled to false
                     if (userScrolled
                             && firstVisibleItem + visibleItemCount == totalItemCount) {
                         userScrolled = false;
@@ -667,10 +677,6 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
 
     // Method for repopulating recycler view
     private void updateListView() {
-        // Show Progress Layout
-        //bottomLayout.setVisibility(View.VISIBLE);
-        //progressDialogCall();
-        System.out.println("4 progressDialogCall");
         String Cat4PageNo = String.valueOf(PAGE_NO);
         final String loadChildCatURL = URL_IP_ADDRESS + URL_LOADCHILDCATEGORIES + "?appId=" + URLEncoder.encode(APP_ID) + "&catId=" + URLEncoder.encode(OrderAttributeCategoryValue) + "&orderAttr=" + URLEncoder.encode(SelectedOrderValue) + "&page_no=" + URLEncoder.encode(Cat4PageNo) + "&entries_per_page=" + URLEncoder.encode(EntriesPerPage_Position) + "&deviceId=" + URLEncoder.encode(getdeviceID);
         JsonObjectRequest orderByVideoRequest = new JsonObjectRequest(Request.Method.POST, loadChildCatURL, null, new Response.Listener<JSONObject>() {
