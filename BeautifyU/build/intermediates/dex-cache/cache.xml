@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-9.4.0_c6bba9500ea1d3f98fefc2d22b5750f92692b675.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.4.0_fe8f7038d032890de0d0380422c90ef7fcd7cdad.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/libs/httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f3cf3b25e14d3bca47773e95aa85ea8fefbf8e81">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6_9e744d2915ad17b5916f11f0f2507fb3d1dd5b4b.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.4.0_ce7b48681a6e314974635b08e2a74eea3062fc17.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.4.0_66821307f1f32fc7e285672aad3b3b97148a70e1.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.4.0_7b77d7ade018ffb9d44bf8380a89cd7884367a59.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_49297f01c1c7330ee4ae11451b13135e4124d5d4.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.4.0_b53bd43f52ffacdfb388c08260201f300068701b.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/libs/InMobi-5.3.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="379d702534f03409ebdc47f5133309f71cf74138">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/InMobi-5.3.1_a75fe04e2cc22472760cc555cdc1d8d1a07938ed.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.4.0_a4f4ea529d08925b4283f9d812b7c68fba36ff32.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-9.4.0_f7eef381c35f8de7dd7ad91bd4a394dfa36d3b32.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.4.0_5c3faccd6c257a9b1c5644a05ac5135d16d29111.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_fba0144947ca081fe9c7142c01d79c757cd64e2e.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.4.0_8a047128a2aac60e0f4ca7d4f57bb60107446af0.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.4.0_5e48bc0f6002fa6a35057655b2a7dae2df3ef16c.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.4.0_235ace74e59938cdb26972c027a8b71bf7cb7147.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.4.0_e9d32ea6709907f057223e07b5e9b2823f0daeed.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_86ee7ca2f3a85aae91fe641c703aa8db2f6b808f.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/libs/http-core-4.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1bf8391d59bf37ddf2aa51aa90467afd0388bc2c">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/http-core-4.1_c2ae4a6d76986cdbf1699f0a3fd5cea999bc6307.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/libs/volley.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="04b23f428af24a3b67bb50f584349e24d39c775a">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/volley_31910b3725c6f4c8bf13e73cebcbcacf631f8765.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_f17be34c09f74eef573c3232aadd6d432eb97b0c.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.4.0_0fcfc988b1458d4b338e14386c62f580576cb007.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-config-9.4.0_c9cae67f026255a2d5e7c378c29ca83838784247.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_c16b37a126fa6e9698a11f3391c40b6ba106fdfc.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.1_459e3e35778b9f7c2cc117bb6abcbe9dfe225c87.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-9.4.0_8ee0f972949a115dea0970eb921e393d7b62299c.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-database/0.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c76f6507a42aec274953e882bf3c49a570843ef5">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.firebaseui-firebase-ui-database-0.4.0_216680ae60a3e434a9e2c8108d046d20fee8f633.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.4.0_4152883da341221fe4b1343cf479d72024e37e5f.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.4.0_e72bff6c48c9ca48dd6d0258184076c7a11e17ac.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.4.0_bb1deec67ab3b720262092d2b1643624938a152b.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.4.0_69d2652d270a400549282eb8f015f074b7f34da6.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.4.0_66402cc5c72d1ef802847e0e4d195d1a0f375064.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.4.0_480989133be84f231bf71fc588b5d592296de52b.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi_87e905001d57f442238f0e59763fa36083f80f06.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/BeautifyU/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_72caeaf04ba79b01dddaa9649e4a0291c987d315.jar" />
+    </item>
+
+</items>
