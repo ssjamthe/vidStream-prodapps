@@ -47,17 +47,21 @@ public interface ApplicationConstants {
     String URL_YOUTUBEVIDEO = "videoViewed";
     String URL_FEEDBACKFORM = "feedbackForm";
 
-    //TODO:- For Order By Section and msgs
+    //TODO:- Other String msgs
+    String PERSONALIZED = "Personalized";
     String LOWINTERNET = "Low internet speed!";                             // Make sure do not change never ever
     String RETRY = "Do you want to retry?";                                 // Make sure do not change never ever
     String CANTBEREACHED = "Can't be reached!";                             // Make sure do not change never ever
     String TRYAGAIN = "Do you want to try again?";                          // Make sure do not change never ever
     String AUTHENTICATION_ERROR = "Problem accessing data. Authentication failed.";
     String UPDATING_APP = "Please try updating the app from Google Play Store.";
+    String RecentlyViewedID = "-1";
     String LOADSORTEDVIDEOSURL_UPLOADTIME = "Upload Time";                  // Make sure do not change never ever
     String LOADSORTEDVIDEOSURL_MOSTVIEWED = "Most Viewed";                  // Make sure do not change never ever
+    String LOADSORTEDVIDEOSURL_VIEWTIME = "View Time";                      // Make sure do not change never ever
     String LOADSORTEDVIDEOSURL_UPLOADTIMEID = "UploadTime";                 // Make sure do not change never ever
     String LOADSORTEDVIDEOSURL_MOSTVIEWEDID = "MostViewed";                 // Make sure do not change never ever
+    String LOADSORTEDVIDEOSURL_VIEWTIMEID = "ViewTime";                     // Make sure do not change never ever
 
     //TODO:- Token  key
     String TOKEN_KEY = "token";                                             // Make sure do not change never ever
