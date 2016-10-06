@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <string name="app_name">BeautifyU</string>
+    <string name="app_name">Complete Makeup Video Guide</string>
     <string name="banner_admob_ad_unit_id">ca-app-pub-5359662406012495/1385110166</string>
 
     <string name="action_refresh">Refresh</string>

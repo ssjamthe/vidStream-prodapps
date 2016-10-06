@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="app_theme_color">#15da19</color>
-    <color name="app_theme_darker_color">#29a703</color>
+    <color name="app_theme_color">#ec446b</color>
+    <color name="app_theme_darker_color">#e2081a</color>
 
     <!--Make sure do not change below color-->
     <color name="white_color">#FFFFFF</color>
