@@ -100,38 +100,5 @@
             android:textColor="@color/app_theme_color"
             android:textSize="16dp" />
 
-        <FrameLayout
-            android:id="@+id/youtube_frameVideo"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:background="@color/ad_bg_color"
-            android:layout_alignParentBottom="true">
-
-            <ProgressBar
-                android:id="@+id/youtube_progressbar"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                android:layout_gravity="center|bottom"
-                android:layout_marginBottom="4dp"
-                android:layout_marginTop="2dp"/>
-
-            <com.google.android.gms.ads.AdView
-                android:id="@+id/adViewYoutube"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_gravity="bottom"
-                android:visibility="gone"
-                ads:adSize="BANNER"
-                android:layout_alignParentBottom="true"
-                ads:adUnitId="@string/banner_admob_ad_unit_id" />
-
-            <RelativeLayout
-                android:id="@+id/youtube_ad_container"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:visibility="gone" />
-
-        </FrameLayout>
     </RelativeLayout>
 </LinearLayout>
