@@ -18,7 +18,7 @@ public interface ApplicationConstants {
 
     //TODO:- Application Changes
     String APP_ID = "10";                                                   // Change APP_ID = "2"    // U'll get .apk file from "Appify\app\build\outputs\apk\app_debug.apk"
-    String APP_NAME = "Kids Learning Videos";                                            // Change APP_NAME = ABC  // Also need to Change App Name From "app\res\values\strings.xml\app_name"
+    String APP_NAME = "Kids Learning With Fun";                                            // Change APP_NAME = ABC  // Also need to Change App Name From "app\res\values\strings.xml\app_name"
     String APP_THEME_COLOR = "#ec446b";                                     // Change APP_THEME_COLOR for Alert messages Appify text color  // Also Need to change colors from "app\res\values\colors.xml"
     String APP_PACKAGE = "com.appify.vidstream.app_10";                     // This required for IMEI // Change APP_PACKAGE = com.appify.vidstream.app_10  // Also need to Change Pkg Name at line no. 4 From "app\manifests\AndroidManifest.xml\package="com.appify.vidstream.app"" and Also from Gradle Scripts\build.gradle(Module: app)\applicationId "com.appify.vidstream.app"
 

@@ -25,13 +25,18 @@ import com.google.android.youtube.player.YouTubePlayer.Provider;
 import com.inmobi.ads.InMobiAdRequestStatus;
 import com.inmobi.ads.InMobiBanner;
 import com.inmobi.sdk.InMobiSdk;
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
+
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.os.PowerManager;
@@ -45,7 +50,13 @@ import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
-
+import org.apache.http.HttpResponse;
+import org.apache.http.NameValuePair;
+import org.apache.http.client.HttpClient;
+import org.apache.http.client.entity.UrlEncodedFormEntity;
+import org.apache.http.client.methods.HttpPost;
+import org.apache.http.impl.client.DefaultHttpClient;
+import org.apache.http.message.BasicNameValuePair;
 import org.json.JSONObject;
 
 import java.io.File;
@@ -53,8 +64,10 @@ import java.io.InputStream;
 import java.net.URL;
 import java.net.URLEncoder;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 import java.util.Random;
+import java.util.concurrent.ExecutionException;
 
 public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.OnInitializedListener,ApplicationConstants {
 
@@ -65,16 +78,8 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
 	private YouTubePlayerView youTubePlayerView;
 	private String VIDEO_ID, VIDEO_NAME, deviceID, showBanner, youtubeshowInmobiAdWeightage, showAdMovingInside, back_image;
 	private TextView videoName;
-	private InterstitialAd banner;
 	private LinearLayout home_but, back_but;
-	private FrameLayout frameVideo;
-	private AdView adMobAdView;
-	private InMobiBanner mBannerAd;
-	private ProgressBar progressBar;
-	private RelativeLayout inMobiAdContainer, player_background;
-	private Bitmap bitmap;
-	private Random random = new Random();
-	private Double randomNo = random.nextDouble() * 1.0;
+	private RelativeLayout player_background;
 	private CheckInternetConnection cic;
 	private Boolean isInternetPresent = false;
 	private ArrayList CategoryHierarchyList = new ArrayList();
@@ -107,26 +112,8 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
 			SSLManager.handleSSLHandshake(); //For SSL Request
 		}catch (Exception e){e.printStackTrace();}
 
-		//Initialize View
-		adMobAdView = (AdView) this.findViewById(R.id.adViewYoutube);
-		inMobiAdContainer = (RelativeLayout) findViewById(R.id.youtube_ad_container);
 		player_background = (RelativeLayout) findViewById(R.id.player_background);
-		frameVideo = (FrameLayout) findViewById(R.id.youtube_frameVideo);
-		progressBar =  (ProgressBar) findViewById(R.id.youtube_progressbar);
 		videoName = (TextView) findViewById(R.id.youtubeVidText);
-
-		try {
-			int Orientation = getScreenOrientation();
-			if (Orientation == 1) {
-				frameVideo.setVisibility(View.VISIBLE);
-				adMobAdView.setVisibility(View.VISIBLE);
-				inMobiAdContainer.setVisibility(View.VISIBLE);
-			} else {
-				frameVideo.setVisibility(View.GONE);
-				adMobAdView.setVisibility(View.GONE);
-				inMobiAdContainer.setVisibility(View.GONE);
-			}
-		}catch (Exception e){e.printStackTrace();}
 
 		//Intent values from CategoryScreen.
 		try {
@@ -142,7 +129,7 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
 			back_image = intentget.getStringExtra("back_img");
 			flag = intentget.getExtras().getBoolean("flag");
 			ActivityNo = getIntent().getIntExtra("ActivityNo", 0);
-			Log.e("Get Categorization ActivityNo from Intent>>>", "And set ActivityNo = " + ActivityNo + ";");
+			System.out.println("Get Categorization ActivityNo from Intent>>>And set ActivityNo = " + ActivityNo + ";");
 		}catch(Exception e){e.printStackTrace();}
 
 		cic = new CheckInternetConnection(getApplicationContext());
@@ -154,7 +141,7 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
 		//Update ActivityNo and set video Name
         try {
             ActivityNo = ActivityNo + 1;
-            Log.e("After Add 1 ActivityNo from Intent>>>", "And set ActivityNo = " + ActivityNo + ";");
+			System.out.println("After Add 1 ActivityNo from Intent>>> And set ActivityNo = " + ActivityNo + ";");
             videoName.setText(VIDEO_NAME);
 
             if (!(PrevActivityNo == 0)) {
@@ -213,22 +200,24 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
 
 		//Background Image
 		try{
-			if(back_image != null){
-				new LoadImage().execute(back_image);
-			}
-		}catch (Exception e){e.printStackTrace();}
+			if(back_image != null)
+			{
+				Picasso.with(YoutubePlayer.this).load(back_image).into(new Target() {
+					@Override
+					public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+						player_background.setBackgroundDrawable(new BitmapDrawable(bitmap));
+					}
 
-// Prepare the Banner Ad
-		try {
-			double showAdWeight = Double.parseDouble(youtubeshowInmobiAdWeightage);
-			if (showAdWeight > randomNo) {
-				if (showBanner.equalsIgnoreCase("true")) {
-					showInMobiYoutubeAdBanner();
-				}
-			} else {
-				if (showBanner.equalsIgnoreCase("true")) {
-					showAdmobBanner();
-				}
+					@Override
+					public void onBitmapFailed(Drawable errorDrawable) {
+
+					}
+
+					@Override
+					public void onPrepareLoad(Drawable placeHolderDrawable) {
+
+					}
+				});
 			}
 		}catch (Exception e){e.printStackTrace();}
 
@@ -263,29 +252,6 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
 
 	}
 	/************************ End OnCreate() **************************************/
-
-	private class LoadImage extends AsyncTask<String, String, Bitmap> {
-
-		protected Bitmap doInBackground(String... args) {
-			try {
-				bitmap = BitmapFactory.decodeStream((InputStream) new URL(args[0]).getContent());
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-			return bitmap;
-		}
-
-		protected void onPostExecute(Bitmap image) {
-			try {
-				if (image != null) {
-					BitmapDrawable drawableBitmap = new BitmapDrawable(image);
-					player_background.setBackgroundDrawable(drawableBitmap);
-				}
-			}catch (Exception e){
-				e.printStackTrace();
-			}
-		}
-	}
 
 	@Override
 	public void onInitializationFailure(Provider provider, YouTubeInitializationResult errorReason) {
@@ -381,30 +347,6 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
 		}
 	};
 
-	private void showAdmobBanner(){
-		try{
-			adMobAdView.setVisibility(View.VISIBLE);
-			//adMobAdView.setAdSize(AdSize.SMART_BANNER);
-			banner = new InterstitialAd(YoutubePlayer.this);
-			banner.setAdUnitId(ADMOB_BANNER);
-			AdRequest adRequest = new AdRequest.Builder()
-					.addTestDevice(AdRequest.DEVICE_ID_EMULATOR)
-					.addTestDevice(APP_NAME).build();
-			adMobAdView.loadAd(adRequest);
-			progressBar.setVisibility(View.GONE);
-			banner.loadAd(adRequest);
-			banner.setAdListener(new AdListener() {
-				public void onAdLoaded() {
-					if (banner.isLoaded()) {
-						progressBar.setVisibility(View.GONE);
-					}else {
-						Log.d("","Banner ad failed to load");
-					}
-				}
-			});
-		}catch (Exception e){e.printStackTrace();}
-	}
-
 	@Override
 	protected void onDestroy() {
         try {
@@ -421,13 +363,7 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
 		super.onConfigurationChanged(newConfig);
         try {
             if (newConfig.orientation == Configuration.ORIENTATION_PORTRAIT) {
-                frameVideo.setVisibility(View.VISIBLE);
-                adMobAdView.setVisibility(View.VISIBLE);
-                inMobiAdContainer.setVisibility(View.VISIBLE);
             } else if (newConfig.orientation == Configuration.ORIENTATION_LANDSCAPE) {
-                frameVideo.setVisibility(View.GONE);
-                adMobAdView.setVisibility(View.GONE);
-                inMobiAdContainer.setVisibility(View.GONE);
             }
         }catch (Exception e){e.printStackTrace();}
 	}
@@ -440,84 +376,6 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
 		catch (Exception ignored){
 			return true;
 		}
-	}
-
-	public int getScreenOrientation()
-	{
-		Display getOrient = getWindowManager().getDefaultDisplay();
-		int orientation = Configuration.ORIENTATION_UNDEFINED;
-		try {
-			if (getOrient.getWidth() == getOrient.getHeight()) {
-				orientation = Configuration.ORIENTATION_SQUARE;
-			} else {
-				if (getOrient.getWidth() < getOrient.getHeight()) {
-					orientation = Configuration.ORIENTATION_PORTRAIT;
-				} else {
-					orientation = Configuration.ORIENTATION_LANDSCAPE;
-				}
-			}
-		}catch (Exception e){e.printStackTrace();}
-		return orientation;
-	}
-
-	private void showInMobiYoutubeAdBanner() {
-
-        try {
-            mBannerAd = new InMobiBanner(YoutubePlayer.this, INMOBI_BANNER);
-            inMobiAdContainer.setVisibility(View.VISIBLE);
-            if (inMobiAdContainer != null) {
-
-                mBannerAd.setAnimationType(InMobiBanner.AnimationType.ROTATE_HORIZONTAL_AXIS);
-                mBannerAd.setListener(new InMobiBanner.BannerAdListener() {
-                    @Override
-                    public void onAdLoadSucceeded(InMobiBanner inMobiBanner) {
-                        progressBar.setVisibility(View.GONE);
-                    }
-
-                    @Override
-                    public void onAdLoadFailed(InMobiBanner inMobiBanner,
-                                               InMobiAdRequestStatus inMobiAdRequestStatus) {
-                        Log.w(TAG, "Banner ad failed to load with error: " +
-                                inMobiAdRequestStatus.getMessage());
-                    }
-
-                    @Override
-                    public void onAdDisplayed(InMobiBanner inMobiBanner) {
-                        progressBar.setVisibility(View.GONE);
-                    }
-
-                    @Override
-                    public void onAdDismissed(InMobiBanner inMobiBanner) {
-                    }
-
-                    @Override
-                    public void onAdInteraction(InMobiBanner inMobiBanner, Map<Object, Object> map) {
-                    }
-
-                    @Override
-                    public void onUserLeftApplication(InMobiBanner inMobiBanner) {
-                    }
-
-                    @Override
-                    public void onAdRewardActionCompleted(InMobiBanner inMobiBanner, Map<Object, Object> map) {
-                    }
-                });
-
-                int width = toPixelUnits(320);
-                int height = toPixelUnits(50);
-                RelativeLayout.LayoutParams bannerLayoutParams =
-                        new RelativeLayout.LayoutParams(width, height);
-                bannerLayoutParams.addRule(RelativeLayout.ALIGN_PARENT_BOTTOM);
-                bannerLayoutParams.addRule(RelativeLayout.CENTER_HORIZONTAL);
-                inMobiAdContainer.addView(mBannerAd, bannerLayoutParams);
-                mBannerAd.load();
-            }
-        }catch (Exception e){e.printStackTrace();}
-	}
-
-	private int toPixelUnits(int dipUnit) {
-		float density = getResources().getDisplayMetrics().density;
-		return Math.round(dipUnit * density);
 	}
 
 	public static void trimCache(Context context) {
@@ -562,7 +420,7 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
             editor.commit();
             PrevActivityNo = preferences.getInt(PREFS_KEY, 0);
             ActivityNo = ActivityNo + 1;
-            Log.e("After Add 1 ActivityNo from Intent>>>", "And set ActivityNo = " + ActivityNo + ";");
+			System.out.println("After Add 1 ActivityNo from Intent>>> And set ActivityNo = " + ActivityNo + ";");
             try {
                 trimCache(this);
                 if (youTubePlayer != null) {

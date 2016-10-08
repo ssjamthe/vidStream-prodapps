@@ -40,10 +40,15 @@ import com.inmobi.ads.InMobiAdRequestStatus;
 import com.inmobi.ads.InMobiBanner;
 import com.inmobi.ads.InMobiInterstitial;
 import com.inmobi.sdk.InMobiSdk;
+import com.squareup.picasso.Callback;
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
+
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.AsyncTask;
@@ -72,6 +77,7 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
@@ -110,7 +116,6 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
     private GridView gridViewCategoriesText;
     private LinearLayout mainCategorizationLinearLayout, PersonalizeLayout;
     private RelativeLayout catzation_Relative_Background;
-    private Bitmap bitmap;
 
     private static final String PREFS_NAME = "CATZ_PREF";
     private static final String PREFS_KEY = "CATZ_PREF_PREV_ACTNO";
@@ -136,9 +141,6 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.categorization_screen);
-
-        //For ActionBar Background
-        //getSupportActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.action_bar_rect));
 
         //Fresco.initialize(this);
         try {
@@ -180,9 +182,9 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
         //getIntent
         try {
             flag = getIntent().getExtras().getBoolean("flag");
-            Log.e("Get flag from Intent>>>","And set flag = "+ flag +";");
+            System.out.println("Get flag from Intent>>> And set flag = "+ flag +";");
             ActivityNo = getIntent().getIntExtra("ActivityNo",0);
-            Log.e("Get Categorization ActivityNo from Intent>>>","And set ActivityNo = "+ ActivityNo +";");
+            System.out.println("Get Categorization ActivityNo from Intent>>> And set ActivityNo = "+ ActivityNo +";");
             showBanner = getIntent().getStringExtra("showBanner");
             showInmobiAdWeightage = getIntent().getStringExtra("showInmobiAdWeightage");
             minIntervalInterstitial = getIntent().getLongExtra("minIntervalInterstitial",0);
@@ -196,7 +198,7 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
             {
                 // Prepare the Banner and Interstitial Ad
                 double showAdWeight = Double.parseDouble(showInmobiAdWeightage);
-                if (showAdWeight > randomNo)
+                if (showAdWeight > randomNo && (!(mInterstitialAd.equals(null))))
                 {
                     // InterstitialAd
                     try{
@@ -211,8 +213,11 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
                             handler.postDelayed(new Runnable() {
                                 @Override
                                 public void run() {
-                                    mInterstitialAd.load();
-                                    mInterstitialAd.show();
+                                    if(mInterstitialAd != null)
+                                    {
+                                        mInterstitialAd.load();
+                                        mInterstitialAd.show();
+                                    }
                                     System.out.println("Inmobi after interstitial show ="+mInterstitialAd);
                                     //Toast.makeText(CategorizationScreen.this,"Inmobi after interstitial show()",Toast.LENGTH_SHORT).show();
                                     PrevActivityNo = ActivityNo;
@@ -244,7 +249,7 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
                                 editor.putInt(PREFS_KEY, PrevActivityNo);
                                 editor.commit();
                             }else {
-                                Log.d("","Interstitial ad failed to load");
+                                System.out.println("Interstitial ad failed to load");
                             }
                         }
                     }catch (Exception e){
@@ -262,7 +267,7 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
 
         }catch (Exception e){
             e.printStackTrace();
-            Log.e("No Values For Intent>>>","And set flag = false;");
+            System.out.println("No Values For Intent>>>And set flag = false;");
             adManager.createAdMobAds(); //Request for creating Ad.
             adManager.createInMobiInterstitial();
             flag = false; //for List to Grid
@@ -353,7 +358,26 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
                     appBgImageUrl = response.getString("appBgImageUrl");
                     Log.e("appBgImageUrl", appBgImageUrl);
                     try {
-                        new LoadImage().execute(appBgImageUrl);         //for backgroung image
+                        //new LoadImage().execute(appBgImageUrl);         //for backgroung image
+                        if(appBgImageUrl != null)
+                        {
+                            Picasso.with(CategorizationScreen.this).load(appBgImageUrl).into(new Target() {
+                                @Override
+                                public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                                    catzation_Relative_Background.setBackgroundDrawable(new BitmapDrawable(bitmap));
+                                }
+
+                                @Override
+                                public void onBitmapFailed(Drawable errorDrawable) {
+
+                                }
+
+                                @Override
+                                public void onPrepareLoad(Drawable placeHolderDrawable) {
+
+                                }
+                            });
+                        }
                     }catch (Exception e){e.printStackTrace();}
 
                     //For Banner
@@ -495,7 +519,7 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
                     editor.commit();
                     PrevActivityNo = preferences.getInt(PREFS_KEY, 0);
                     ActivityNo = ActivityNo + 1;
-                    Log.e("After Add 1 ActivityNo from Intent>>>", "And set ActivityNo = " + ActivityNo + ";");
+                    System.out.println("After Add 1 ActivityNo from Intent>>>And set ActivityNo = " + ActivityNo + ";");
 
                     String SelectedCategoryId = tvCategory.getText().toString();
                     System.out.println("SelectedCategoryId=" + SelectedCategoryId);
@@ -597,29 +621,6 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
         };
         // Adding request to request queue
         AppController.getInstance().addToRequestQueue(categoriesRequest);
-    }
-
-    private class LoadImage extends AsyncTask<String, String, Bitmap> {
-
-        protected Bitmap doInBackground(String... args) {
-            try {
-                bitmap = BitmapFactory.decodeStream((InputStream) new URL(args[0]).getContent());
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            return bitmap;
-        }
-
-        protected void onPostExecute(Bitmap image) {
-            try {
-                if (image != null) {
-                    BitmapDrawable drawableBitmap = new BitmapDrawable(image);
-                    catzation_Relative_Background.setBackgroundDrawable(drawableBitmap);
-                }
-            }catch (Exception e){
-                e.printStackTrace();
-            }
-        }
     }
 
     private void showAdBanner() {

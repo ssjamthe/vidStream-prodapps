@@ -10,6 +10,7 @@ import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -44,6 +45,8 @@ import com.google.android.gms.ads.AdView;
 import com.google.android.gms.ads.InterstitialAd;
 import com.inmobi.ads.InMobiAdRequestStatus;
 import com.inmobi.ads.InMobiBanner;
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
 
 import org.json.JSONObject;
 
@@ -67,7 +70,6 @@ public class FeedbackForm extends AppCompatActivity implements ApplicationConsta
     private RelativeLayout inMobiAdContainer, feedback_linear;
     private int ActivityNo;
     private String BackGround_Image, deviceID, showBanner, showInmobiAdWeightage;
-    private Bitmap bitmap;
     private LinearLayout feedbackInnerLayout;
     private NetworkResponse networkResponse;
     private ProgressDialog progressDialog;
@@ -87,7 +89,6 @@ public class FeedbackForm extends AppCompatActivity implements ApplicationConsta
 
         //For ActionBar Visible BackArrow 77>82
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        getSupportActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.action_bar_rect));
         SSLManager.handleSSLHandshake(); //For SSL Request
 
         cic = new CheckInternetConnection(getApplicationContext());
@@ -142,22 +143,6 @@ public class FeedbackForm extends AppCompatActivity implements ApplicationConsta
         tv_edit_counter.setText("0 / 500");
         ed_feedback.addTextChangedListener(mTextEditorWatcher);
 
-        /*ed_feedback.setOnFocusChangeListener(new View.OnFocusChangeListener() {
-            @Override
-            public void onFocusChange(View v, boolean hasFocus) {
-                try {
-                    if (!hasFocus) {
-                        Log.d("focus", "focus loosed");
-                        hideKeyboard();
-                        // Do whatever you want here
-                    } else {
-                        Log.d("focus", "focused");
-                        showKeyboard();
-                    }
-                }catch (Exception e){e.printStackTrace();}
-            }
-        });*/
-
         feedback_linear.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -184,8 +169,24 @@ public class FeedbackForm extends AppCompatActivity implements ApplicationConsta
         });
 
         try {
-            if (BackGround_Image != null) {
-                new LoadImage().execute(BackGround_Image);
+            if(BackGround_Image != null)
+            {
+                Picasso.with(FeedbackForm.this).load(BackGround_Image).into(new Target() {
+                    @Override
+                    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                        feedback_linear.setBackgroundDrawable(new BitmapDrawable(bitmap));
+                    }
+
+                    @Override
+                    public void onBitmapFailed(Drawable errorDrawable) {
+
+                    }
+
+                    @Override
+                    public void onPrepareLoad(Drawable placeHolderDrawable) {
+
+                    }
+                });
             }
         }catch (Exception e){e.printStackTrace();}
 
@@ -271,29 +272,6 @@ public class FeedbackForm extends AppCompatActivity implements ApplicationConsta
         public void afterTextChanged(Editable s) {
         }
     };
-
-    private class LoadImage extends AsyncTask<String, String, Bitmap> {
-
-        protected Bitmap doInBackground(String... args) {
-            try {
-                bitmap = BitmapFactory.decodeStream((InputStream) new URL(args[0]).getContent());
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            return bitmap;
-        }
-
-        protected void onPostExecute(Bitmap image) {
-            try {
-                if (image != null) {
-                    BitmapDrawable drawableBitmap = new BitmapDrawable(image);
-                    feedback_linear.setBackgroundDrawable(drawableBitmap);
-                }
-            }catch (Exception e){
-                e.printStackTrace();
-            }
-        }
-    }
 
     void midToast(String str, int showTime) {
         Toast toast = Toast.makeText(FeedbackForm.this, str, showTime);
