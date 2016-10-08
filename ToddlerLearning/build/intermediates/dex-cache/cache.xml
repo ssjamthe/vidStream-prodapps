@@ -2,249 +2,508 @@
 <items version="2" >
 
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
         revision="23.0.3"
-        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.4.0_f5ca15125a9f2c2ae62c266c5e4a6f0885de9c70.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.4.0_c67b04274fc114135f4e15cbe3b8a143740b8ed5.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.4.0_fe57eb4f7ad26e3c8e1a531c7908bd37d28ebf20.jar" />
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.4.0_f00c19da3a0ab6433393400556939f4ddf3b1fe2/classes.dex" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="3b7173b3df4c7029699919414400041f64519e34">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.4.0_f00c19da3a0ab6433393400556939f4ddf3b1fe2.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-iid-9.4.0_f00c19da3a0ab6433393400556939f4ddf3b1fe2.jar" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.4.0_066750e0375048c5ab09e8b6b00fe2e0c4083c06.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-9.4.0_066750e0375048c5ab09e8b6b00fe2e0c4083c06.jar" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.4.0_8c01f1087f872c4849db099f5a6aad23dc0244d2.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-lite-9.4.0_8c01f1087f872c4849db099f5a6aad23dc0244d2.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
         revision="23.0.3"
-        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_7ea1521461b2326ed8698d2b6b7366fe064816b4.jar" />
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.4.0_066750e0375048c5ab09e8b6b00fe2e0c4083c06/classes.dex" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
+        jumboMode="true"
         revision="23.0.3"
-        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-9.4.0_29a363a30f30a22ce5bbbdd0cda4e17a944c7ea4.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_63f8ce0b2136af29cde8a4f31838372bf01d168f.jar" />
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.4.0_8c01f1087f872c4849db099f5a6aad23dc0244d2/classes.dex" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/libs/volley.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="04b23f428af24a3b67bb50f584349e24d39c775a">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/volley_bd0c8842ff724bbd24de9cf613c73412d04fcf12.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/volley_bd0c8842ff724bbd24de9cf613c73412d04fcf12.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/libs/volley.jar"
+        jumboMode="true"
         revision="23.0.3"
-        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.4.0_adfb1f920ebe892b27a16b78e169f4ba00c1ede5.jar" />
+        sha1="04b23f428af24a3b67bb50f584349e24d39c775a">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/2/volley_bd0c8842ff724bbd24de9cf613c73412d04fcf12/classes.dex" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="b15f898c9047f9d612a63000126b485dd024eaac">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.4.0_891e3b6406ff08cab9ad75f6cf89977b6099e47b.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-gass-9.4.0_891e3b6406ff08cab9ad75f6cf89977b6099e47b.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.4.0_936bd376b8f1636af4352a78ac73c9a9a24802c6/classes.dex" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="dab6944860c986980dcc6002a5ca2f127b587317">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-config-9.4.0_936bd376b8f1636af4352a78ac73c9a9a24802c6.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-config-9.4.0_936bd376b8f1636af4352a78ac73c9a9a24802c6.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/libs/httpclient-4.3.6.jar"
+        jumboMode="true"
         revision="23.0.3"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.4.0_c079ef4eaca41d7266c8cb1abb23fee1dd501fb1.jar" />
+        sha1="f3cf3b25e14d3bca47773e95aa85ea8fefbf8e81">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.3.6_b74ae7629139dd022f0e7cd789c86429414fc122/classes.dex" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
         revision="23.0.3"
-        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.4.0_90ee1deefeb52f7afa290f5e4e2da69a9211b03e.jar" />
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.4.0_58141c578c0f9dbf25373a0620d71de55d949dbe/classes.dex" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.4.0_58141c578c0f9dbf25373a0620d71de55d949dbe.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-auth-9.4.0_58141c578c0f9dbf25373a0620d71de55d949dbe.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.4.0_891e3b6406ff08cab9ad75f6cf89977b6099e47b/classes.dex" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_98da5d2cb838a722821bc11314c39a9736794560.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-23.2.1_98da5d2cb838a722821bc11314c39a9736794560.jar" />
     </item>
     <item
         jar="/Users/swapnil/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_fba0144947ca081fe9c7142c01d79c757cd64e2e.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-database/0.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="c76f6507a42aec274953e882bf3c49a570843ef5">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.firebaseui-firebase-ui-database-0.4.0_48581787def89061b7feb38ba85f8758ad02de68.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/support-annotations-23.2.1_fba0144947ca081fe9c7142c01d79c757cd64e2e.jar" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.1_8d113ae5f13d52a7dcca77709f32806dddc3ea2a.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-23.2.1_8d113ae5f13d52a7dcca77709f32806dddc3ea2a.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.4.0_eddb9234bb9d616b6d36fa8ca79767bb84c11ee0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_fba0144947ca081fe9c7142c01d79c757cd64e2e/classes.dex" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="4348dd26d83b56c2058b768222c3271bce911724">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-9.4.0_eddb9234bb9d616b6d36fa8ca79767bb84c11ee0.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.4.0_c4510d340a38917bebc3ef129e8ec4b727de9c7e.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-auth-9.4.0_eddb9234bb9d616b6d36fa8ca79767bb84c11ee0.jar" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.4.0_df205b050378782e679cf44df4353885842befca.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-auth-common-9.4.0_df205b050378782e679cf44df4353885842befca.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
         revision="23.0.3"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.4.0_9408820fc1e048201454d4650a3725b913e90fa0.jar" />
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.4.0_df205b050378782e679cf44df4353885842befca/classes.dex" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
-        jumboMode="false"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
         revision="23.0.3"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_3fd025ef6331c086b79d60d377742c81eb6f4851.jar" />
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.2.1_8d113ae5f13d52a7dcca77709f32806dddc3ea2a/classes.dex" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
         revision="23.0.3"
-        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-9.4.0_7ce5d35f43d7c0cd94c4807d890e56e98e991b3a.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_391a8408f4f360911befb9a7009bcc05a4cfe4ba.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/libs/InMobi-5.3.1.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="379d702534f03409ebdc47f5133309f71cf74138">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/InMobi-5.3.1_b896d030ca13d1afd3f046c7678c9d7b77dd2ffd.jar" />
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.1_98da5d2cb838a722821bc11314c39a9736794560/classes.dex" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/libs/YouTubeAndroidPlayerApi.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi_c1d19ef07506b00f8d8d4b5fddc6a2a70c296a65.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.4.0_eeb481fba62472397ab6c7e8b7d27e7a703b3ab4.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/YouTubeAndroidPlayerApi_c1d19ef07506b00f8d8d4b5fddc6a2a70c296a65.jar" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.4.0_c067af11b55f810a46c87c5bab3972acfddd254f.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-clearcut-9.4.0_c067af11b55f810a46c87c5bab3972acfddd254f.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.4.0_c067af11b55f810a46c87c5bab3972acfddd254f/classes.dex" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/libs/httpclient-4.3.6.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="f3cf3b25e14d3bca47773e95aa85ea8fefbf8e81">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6_b74ae7629139dd022f0e7cd789c86429414fc122.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/httpclient-4.3.6_b74ae7629139dd022f0e7cd789c86429414fc122.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
-        jumboMode="false"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="true"
         revision="23.0.3"
-        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.4.0_b2ba336e298bcc0381abb72262017aeb7969260c.jar" />
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_c1d19ef07506b00f8d8d4b5fddc6a2a70c296a65/classes.dex" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/libs/http-core-4.1.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="1bf8391d59bf37ddf2aa51aa90467afd0388bc2c">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/http-core-4.1_ae741157e60f7d42fd29eb7ba5e4e0672f70701c.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/http-core-4.1_ae741157e60f7d42fd29eb7ba5e4e0672f70701c.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/libs/http-core-4.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1bf8391d59bf37ddf2aa51aa90467afd0388bc2c">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/2/http-core-4.1_ae741157e60f7d42fd29eb7ba5e4e0672f70701c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0286b5be311c01320acf167b9ae40392e44e5aa6">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_be60540a3e684923f270eec2a7a75e3975d9f779/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.4.0_fe57eb4f7ad26e3c8e1a531c7908bd37d28ebf20/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-impl-9.4.0_f5ca15125a9f2c2ae62c266c5e4a6f0885de9c70.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.4.0_c67b04274fc114135f4e15cbe3b8a143740b8ed5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-database-connection-9.4.0_c67b04274fc114135f4e15cbe3b8a143740b8ed5.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.4.0_29a363a30f30a22ce5bbbdd0cda4e17a944c7ea4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-database-9.4.0_fe57eb4f7ad26e3c8e1a531c7908bd37d28ebf20.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.4.0_adfb1f920ebe892b27a16b78e169f4ba00c1ede5/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.2.1_7ea1521461b2326ed8698d2b6b7366fe064816b4.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_7ea1521461b2326ed8698d2b6b7366fe064816b4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-appinvite-9.4.0_29a363a30f30a22ce5bbbdd0cda4e17a944c7ea4.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-23.2.1_63f8ce0b2136af29cde8a4f31838372bf01d168f.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.4.0_f5ca15125a9f2c2ae62c266c5e4a6f0885de9c70/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-common-9.4.0_adfb1f920ebe892b27a16b78e169f4ba00c1ede5.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.1_63f8ce0b2136af29cde8a4f31838372bf01d168f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.4.0_90ee1deefeb52f7afa290f5e4e2da69a9211b03e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-9.4.0_c079ef4eaca41d7266c8cb1abb23fee1dd501fb1.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-crash-9.4.0_90ee1deefeb52f7afa290f5e4e2da69a9211b03e.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.4.0_c079ef4eaca41d7266c8cb1abb23fee1dd501fb1/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-database/0.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c76f6507a42aec274953e882bf3c49a570843ef5">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.firebaseui-firebase-ui-database-0.4.0_48581787def89061b7feb38ba85f8758ad02de68.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.4.0_7ce5d35f43d7c0cd94c4807d890e56e98e991b3a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-database/0.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c76f6507a42aec274953e882bf3c49a570843ef5">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.firebaseui-firebase-ui-database-0.4.0_48581787def89061b7feb38ba85f8758ad02de68/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-messaging-9.4.0_c4510d340a38917bebc3ef129e8ec4b727de9c7e.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.4.0_9408820fc1e048201454d4650a3725b913e90fa0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.4.0_c4510d340a38917bebc3ef129e8ec4b727de9c7e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_3fd025ef6331c086b79d60d377742c81eb6f4851/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tasks-9.4.0_9408820fc1e048201454d4650a3725b913e90fa0.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/internal_impl-23.2.1_3fd025ef6331c086b79d60d377742c81eb6f4851.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-auth-base-9.4.0_7ce5d35f43d7c0cd94c4807d890e56e98e991b3a.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.2.1_391a8408f4f360911befb9a7009bcc05a4cfe4ba.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="4a0f291be1facb5e5575332c832e8bc01a654e5f">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_58d6443f54dc673ec8ba514dbba75b321b88fc8a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/libs/InMobi-5.3.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="379d702534f03409ebdc47f5133309f71cf74138">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/2/InMobi-5.3.1_b896d030ca13d1afd3f046c7678c9d7b77dd2ffd/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/libs/InMobi-5.3.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="379d702534f03409ebdc47f5133309f71cf74138">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/InMobi-5.3.1_b896d030ca13d1afd3f046c7678c9d7b77dd2ffd.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.4.0_eeb481fba62472397ab6c7e8b7d27e7a703b3ab4/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-auth-module-9.4.0_eeb481fba62472397ab6c7e8b7d27e7a703b3ab4.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_391a8408f4f360911befb9a7009bcc05a4cfe4ba/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.4.0_b2ba336e298bcc0381abb72262017aeb7969260c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-9.4.0_b2ba336e298bcc0381abb72262017aeb7969260c.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.4.0_efa363574ee94ee1dea76914ffa6f05a83562e22/classes.dex" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.4.0_efa363574ee94ee1dea76914ffa6f05a83562e22.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/ToddlerLearning/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-9.4.0_efa363574ee94ee1dea76914ffa6f05a83562e22.jar" />
     </item>
 
 </items>
