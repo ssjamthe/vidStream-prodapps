@@ -25,11 +25,15 @@ import com.google.android.youtube.player.YouTubePlayer.Provider;
 import com.inmobi.ads.InMobiAdRequestStatus;
 import com.inmobi.ads.InMobiBanner;
 import com.inmobi.sdk.InMobiSdk;
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
+
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.annotation.SuppressLint;
@@ -76,7 +80,6 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
 	private TextView videoName;
 	private LinearLayout home_but, back_but;
 	private RelativeLayout player_background;
-	private Bitmap bitmap;
 	private CheckInternetConnection cic;
 	private Boolean isInternetPresent = false;
 	private ArrayList CategoryHierarchyList = new ArrayList();
@@ -126,7 +129,7 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
 			back_image = intentget.getStringExtra("back_img");
 			flag = intentget.getExtras().getBoolean("flag");
 			ActivityNo = getIntent().getIntExtra("ActivityNo", 0);
-			Log.e("Get Categorization ActivityNo from Intent>>>", "And set ActivityNo = " + ActivityNo + ";");
+			System.out.println("Get Categorization ActivityNo from Intent>>>And set ActivityNo = " + ActivityNo + ";");
 		}catch(Exception e){e.printStackTrace();}
 
 		cic = new CheckInternetConnection(getApplicationContext());
@@ -138,7 +141,7 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
 		//Update ActivityNo and set video Name
         try {
             ActivityNo = ActivityNo + 1;
-            Log.e("After Add 1 ActivityNo from Intent>>>", "And set ActivityNo = " + ActivityNo + ";");
+			System.out.println("After Add 1 ActivityNo from Intent>>> And set ActivityNo = " + ActivityNo + ";");
             videoName.setText(VIDEO_NAME);
 
             if (!(PrevActivityNo == 0)) {
@@ -197,8 +200,24 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
 
 		//Background Image
 		try{
-			if(back_image != null){
-				new LoadImage().execute(back_image);
+			if(back_image != null)
+			{
+				Picasso.with(YoutubePlayer.this).load(back_image).into(new Target() {
+					@Override
+					public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+						player_background.setBackgroundDrawable(new BitmapDrawable(bitmap));
+					}
+
+					@Override
+					public void onBitmapFailed(Drawable errorDrawable) {
+
+					}
+
+					@Override
+					public void onPrepareLoad(Drawable placeHolderDrawable) {
+
+					}
+				});
 			}
 		}catch (Exception e){e.printStackTrace();}
 
@@ -233,29 +252,6 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
 
 	}
 	/************************ End OnCreate() **************************************/
-
-	private class LoadImage extends AsyncTask<String, String, Bitmap> {
-
-		protected Bitmap doInBackground(String... args) {
-			try {
-				bitmap = BitmapFactory.decodeStream((InputStream) new URL(args[0]).getContent());
-			} catch (Exception e) {
-				e.printStackTrace();
-			}
-			return bitmap;
-		}
-
-		protected void onPostExecute(Bitmap image) {
-			try {
-				if (image != null) {
-					BitmapDrawable drawableBitmap = new BitmapDrawable(image);
-					player_background.setBackgroundDrawable(drawableBitmap);
-				}
-			}catch (Exception e){
-				e.printStackTrace();
-			}
-		}
-	}
 
 	@Override
 	public void onInitializationFailure(Provider provider, YouTubeInitializationResult errorReason) {
@@ -424,7 +420,7 @@ public class YoutubePlayer extends YouTubeBaseActivity implements YouTubePlayer.
             editor.commit();
             PrevActivityNo = preferences.getInt(PREFS_KEY, 0);
             ActivityNo = ActivityNo + 1;
-            Log.e("After Add 1 ActivityNo from Intent>>>", "And set ActivityNo = " + ActivityNo + ";");
+			System.out.println("After Add 1 ActivityNo from Intent>>> And set ActivityNo = " + ActivityNo + ";");
             try {
                 trimCache(this);
                 if (youTubePlayer != null) {

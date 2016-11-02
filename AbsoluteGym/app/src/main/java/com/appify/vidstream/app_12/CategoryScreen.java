@@ -40,11 +40,15 @@ import com.inmobi.ads.InMobiAdRequestStatus;
 import com.inmobi.ads.InMobiBanner;
 import com.inmobi.ads.InMobiInterstitial;
 import com.inmobi.sdk.InMobiSdk;
+import com.squareup.picasso.Picasso;
+import com.squareup.picasso.Target;
+
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.drawable.BitmapDrawable;
+import android.graphics.drawable.Drawable;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.annotation.SuppressLint;
@@ -93,7 +97,6 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
     private Spinner orderBySpin, entriesPerPageSpin;
     private GridView videoGridList, childCategoriesGridList;
     private RelativeLayout orderByRelativeLayout,relative_category_background;
-    private Bitmap bitmap;
     private MenuItem listGridConvertor;
     private AdView adMobAdView;
     private InMobiBanner mBannerAd;
@@ -132,7 +135,6 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
 
         //For ActionBar Background and Visible BackArrow
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
-        //getSupportActionBar().setBackgroundDrawable(getResources().getDrawable(R.drawable.action_bar_rect));
 
         try {
             //Fresco.initialize(this);
@@ -169,7 +171,7 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
             BackGround_Image = adIntent.getStringExtra("back_img");
             flag = adIntent.getExtras().getBoolean("flag");
             ActivityNo = getIntent().getIntExtra("ActivityNo", 0);
-            Log.e("Get Categorization ActivityNo from Intent>>>", "And set ActivityNo = " + ActivityNo + ";");
+            System.out.println("Get Categorization ActivityNo from Intent>>> And set ActivityNo = " + ActivityNo + ";");
             PrevActivityNo = preferences.getInt(PREFS_KEY, 0);
         }catch (Exception e){e.printStackTrace();onBackPressed();}
 
@@ -198,14 +200,17 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
             if (Duration >= getminIntervalInterstitial && PrevActivityNo != ActivityNo )
             {
                 if (getshowAdMovingInside.equalsIgnoreCase("true")) {
-                    if (showAdWeight > randomNo)
+                    if (showAdWeight > randomNo && (!(mInterstitialAd.equals(null))))
                     {
                         Handler handler = new Handler();
                         handler.postDelayed(new Runnable() {
                             @Override
                             public void run() {
-                                mInterstitialAd.load();
-                                mInterstitialAd.show();
+                                if(mInterstitialAd != null)
+                                {
+                                    mInterstitialAd.load();
+                                    mInterstitialAd.show();
+                                }
                                 System.out.println("Cat interstitial="+mInterstitialAd);
                                 PrevActivityNo = ActivityNo;
                                 editor = preferences.edit();
@@ -273,8 +278,24 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
 
         //For Background Image
         try {
-            if (BackGround_Image != null) {
-                new LoadImage().execute(BackGround_Image);
+            if(BackGround_Image != null)
+            {
+                Picasso.with(CategoryScreen.this).load(BackGround_Image).into(new Target() {
+                    @Override
+                    public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) {
+                        relative_category_background.setBackgroundDrawable(new BitmapDrawable(bitmap));
+                    }
+
+                    @Override
+                    public void onBitmapFailed(Drawable errorDrawable) {
+
+                    }
+
+                    @Override
+                    public void onPrepareLoad(Drawable placeHolderDrawable) {
+
+                    }
+                });
             }
         }catch (Exception e){e.printStackTrace();}
 
@@ -484,7 +505,7 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
                        editor.commit();
                        PrevActivityNo = preferences.getInt(PREFS_KEY, 0);
                        ActivityNo = ActivityNo + 1;
-                       Log.e("After Add 1 ActivityNo from Intent>>>", "And set ActivityNo = " + ActivityNo + ";");
+                       System.out.println("After Add 1 ActivityNo from Intent>>> And set ActivityNo = " + ActivityNo + ";");
                        RefreshCatVid();
                    }catch (Exception e){e.printStackTrace();}
                 }
@@ -613,29 +634,6 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
             }
         };
         AppController.getInstance().addToRequestQueue(orderByVideoRequest);
-    }
-
-    private class LoadImage extends AsyncTask<String, String, Bitmap> {
-
-        protected Bitmap doInBackground(String... args) {
-            try {
-                bitmap = BitmapFactory.decodeStream((InputStream) new URL(args[0]).getContent());
-            } catch (Exception e) {
-                e.printStackTrace();
-            }
-            return bitmap;
-        }
-
-        protected void onPostExecute(Bitmap image) {
-            try {
-                if (image != null) {
-                    BitmapDrawable drawableBitmap = new BitmapDrawable(image);
-                    relative_category_background.setBackgroundDrawable(drawableBitmap);
-                }
-            }catch (Exception e){
-                e.printStackTrace();
-            }
-        }
     }
 
     //ArrayList for EntriesPerPage
