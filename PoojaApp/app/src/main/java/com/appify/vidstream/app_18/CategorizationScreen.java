@@ -1,4 +1,4 @@
-package com.appify.vidstream.app_12;
+package com.appify.vidstream.app_18;
 
 import java.io.InputStream;
 import java.net.URL;
@@ -263,7 +263,7 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
             if(!mInterstitialAd.isReady()){
                 adManager.createInMobiInterstitial(); //Request for creating Ad.
             }
-           //Toast.makeText(CategorizationScreen.this, "After Launch", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(CategorizationScreen.this, "After Launch", Toast.LENGTH_SHORT).show();
 
         }catch (Exception e){
             e.printStackTrace();
@@ -337,7 +337,6 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
                     hidePDialog();
                     //Get Categorization
                     JSONArray categorizationsArray = response.getJSONArray("categorizations");
-                    System.out.println("json.. = "+response);
                     for (int i = 0; i < categorizationsArray.length(); i++) {
                         JSONObject categorizationsObject = categorizationsArray.getJSONObject(i);
                         CatZationModel spinMod = new CatZationModel();
@@ -485,13 +484,13 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
                         LoadCategories(APP_ID, NOW_SELECTED_CATEGORIZATION_ID, deviceID.toString());
                     }
 
-                        int SELECTED_CATEGORIZATION_ID = categorization.getSelectedItemPosition();
-                        System.out.println("SELECTED_CATEGORIZATION_ID = " + SELECTED_CATEGORIZATION_ID);
-                        PREVIOUS_SELECTED_CATEGORIZATION_ID = SELECTED_CATEGORIZATION_ID + 1;
-                        CATZ_editor = CATZ_preferences.edit();
-                        CATZ_editor.putInt(PREFS_CATZ_KEY, PREVIOUS_SELECTED_CATEGORIZATION_ID);
-                        CATZ_editor.commit();
-                        System.out.println("SELECTED_CATEGORIZATION_ID + 1 = " + PREVIOUS_SELECTED_CATEGORIZATION_ID);
+                    int SELECTED_CATEGORIZATION_ID = categorization.getSelectedItemPosition();
+                    System.out.println("SELECTED_CATEGORIZATION_ID = " + SELECTED_CATEGORIZATION_ID);
+                    PREVIOUS_SELECTED_CATEGORIZATION_ID = SELECTED_CATEGORIZATION_ID + 1;
+                    CATZ_editor = CATZ_preferences.edit();
+                    CATZ_editor.putInt(PREFS_CATZ_KEY, PREVIOUS_SELECTED_CATEGORIZATION_ID);
+                    CATZ_editor.commit();
+                    System.out.println("SELECTED_CATEGORIZATION_ID + 1 = " + PREVIOUS_SELECTED_CATEGORIZATION_ID);
 
                 }catch (Exception e) {e.printStackTrace();}
             }
@@ -858,19 +857,19 @@ public class CategorizationScreen extends AppCompatActivity implements Applicati
 
             @Override
             public boolean onMenuItemClick(MenuItem arg0) {
-               try{
-                if (!flag) {
-                    gridViewCategoriesText.setAdapter(categoriListBaseAdapter);
-                    gridViewCategoriesText.setNumColumns(1);
-                    listGridConvertor.setIcon(R.drawable.ic_action_view_as_grid);
-                    flag = true;
-                } else {
-                    gridViewCategoriesText.setAdapter(categoriGridBaseAdapter);
-                    gridViewCategoriesText.setNumColumns(2);
-                    listGridConvertor.setIcon(R.drawable.ic_action_view_as_list);
-                    flag = false;
-                }
-            }catch (Exception e){e.printStackTrace();}
+                try{
+                    if (!flag) {
+                        gridViewCategoriesText.setAdapter(categoriListBaseAdapter);
+                        gridViewCategoriesText.setNumColumns(1);
+                        listGridConvertor.setIcon(R.drawable.ic_action_view_as_grid);
+                        flag = true;
+                    } else {
+                        gridViewCategoriesText.setAdapter(categoriGridBaseAdapter);
+                        gridViewCategoriesText.setNumColumns(2);
+                        listGridConvertor.setIcon(R.drawable.ic_action_view_as_list);
+                        flag = false;
+                    }
+                }catch (Exception e){e.printStackTrace();}
                 return false;
             }
         });

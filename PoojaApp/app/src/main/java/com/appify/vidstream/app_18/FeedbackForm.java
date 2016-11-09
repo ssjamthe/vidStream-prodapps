@@ -1,4 +1,4 @@
-package com.appify.vidstream.app_12;
+package com.appify.vidstream.app_18;
 
 import android.app.Activity;
 import android.app.AlertDialog;
@@ -7,11 +7,9 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.graphics.drawable.BitmapDrawable;
 import android.graphics.drawable.Drawable;
-import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
@@ -50,8 +48,6 @@ import com.squareup.picasso.Target;
 
 import org.json.JSONObject;
 
-import java.io.InputStream;
-import java.net.URL;
 import java.net.URLEncoder;
 import java.util.Map;
 import java.util.Random;
