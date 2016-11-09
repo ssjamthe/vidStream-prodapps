@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.4.0_f71f4d72a11ae5af732d226d2706619d81fbb90a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.2.1_3a81e671adc07c08f6e9a7d8e9582afd2f07e792/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.4.0_ca67fa0d8796b7d969d83b2f1e256767a59d6d29/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.4.0_65cffd8e34b627e5029f2441ced1917e5806b445/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.2.1_50e648b358b12cbb973730f22e7ce71ed1dd2d81/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.4.0_c8801808564b0d083191e321a61bc73afe9acef9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.4.0_4578fcd34117134f13acc7160639c49354b6f554/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.4.0_b622ca225cd9dc6a033fafce440a64b59607666b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.2.1_44d2a26687428661745114d4d69c2bc520920bbc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/picasso-2.4.0_6eb4110a33c04c11dfe5907741de94d8ce452b32/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.4.0_95636033ec2f3a6a618ee58ff719463c519d0cd9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="844be8938b577186560e53180a372a68001347d0">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_a25ef5ec045c4c1563331ebcf9a2033ee07a83bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.4.0_81eabc63c21a8f54d8d2b7fcd79676184769095d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.4.0_770ad4624ea2425cc29d90d0e3d45488069dd643/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.4.0_409f970d23975d074e560c4364695e1d565384a4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.4.0_1a36d115b11229d553334449dad6a38da8413a1d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.2.1_95fb4eb7f8392ecef8b648b4f3d4644c1c87a599/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/libs/httpclient-4.3.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="f3cf3b25e14d3bca47773e95aa85ea8fefbf8e81">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.3.6_d7e9d124faf7af84cf7fbfc308c13b81af043322/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.4.0_993c04e8cd3b7178203c8eeec1b4e606cf2992ec/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.4.0_a7747ad785de57ac26ac0515bf53695e71859591/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.2.1_4f2308793f1734287ba7ab87989b93841589df61/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.4.0_04191feff891fecb96354f2c1f404685f54f3962/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/libs/http-core-4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="1bf8391d59bf37ddf2aa51aa90467afd0388bc2c">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/2/http-core-4.1_8bd9bf2304ef2c2fb07fe942aacd3ac3abd2bba9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.4.0_fe4a1ed4730fa19fc88287f0295815ef8db95568/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/libs/InMobi-5.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="379d702534f03409ebdc47f5133309f71cf74138">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/2/InMobi-5.3.1_0173a930b34acb541d142df1852631b9b5b8465f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.4.0_9d293ef3c8b7772b871669f3974ff4fd31740d97/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.4.0_ff06b9b0c5ac0e61e7889e937aa72f4cb6e777e3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.4.0_90101c55fead9aba845f78520ef8c629f18dc320/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.2.1_1d3353891b13a470fae4bc2f34f8a7fbe96b54be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.4.0_3fcd8dc09f2b98377e9b5a7b63739ca484ba6a1d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.2.1_fba0144947ca081fe9c7142c01d79c757cd64e2e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.4.0_13a6ad957a2c91592dc5ad96cdbad557a7b0cca6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.4.0_6eed82da34240c045a5d45c783e8f648045bd5ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-database/0.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="c76f6507a42aec274953e882bf3c49a570843ef5">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.firebaseui-firebase-ui-database-0.4.0_7dc6480463c31e8006e5919e8d73c590ebbf9680/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/libs/volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="04b23f428af24a3b67bb50f584349e24d39c775a">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/2/volley_e603c5218efa36605eead6f820bbc58209a16baa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/2/YouTubeAndroidPlayerApi_ff505d5d774ee4a4f3e651875610829cd7b58101/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.4.0_82837313e3880b9b5e8d5466dc80f76e28558dd2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.3"
+        sha1="396d8d4657616aa4c122c869bef02fd352bd7b80">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/CreativeHomeDecoration/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_d58d8c4e34125133691ad98e9ad71c87aaadc2da/classes.dex" />
+    </item>
+
+</items>
