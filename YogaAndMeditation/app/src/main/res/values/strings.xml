@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Yoga And Meditation</string>
+    <string name="banner_admob_ad_unit_id">ca-app-pub-5359662406012495/1051103368</string>
+
+    <string name="action_refresh">Refresh</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="feedback_form">Feedback Form</string>
+    <string name="action_exit">Exit</string>
+    <string name="exit_alert_message">Are you really want to exit?</string>
+    <string name="yes">YES</string>
+    <string name="no">NO</string>
+    <string name="ok">OK</string>
+    <string name="no_internet_screen">Ohhh. you are not connected with internet !</string>
+    <string name="no_internet_screen_try_again">please try again...</string>
+    <string name="personalize_text">Personalize this space with your own selected videos.</string>
+    <string name="comming_soon">Coming Soon.</string>
+    <string name="player_error">Error initializing YouTube player</string>
+    <string name="write_comment">Write your comment here...</string>
+    <string name="thank_you">Thank you for taking the time to fill in our online feedback form. By providing us your feedback, you are helping us understand what we do well and what improvements we need to implement.</string>
+    53:DA:03:5B:71:A2:01:75:17:37:02:4F:C9:51:B5:9F:01:8F:E7:C7
+    78:82:AD:8B:F0:59:2B:E2:2C:AE:FC:1B:B4:5A:0F:24:69:4F:72:76
+    D2:0B:49:84:72:F8:BA:14:32:C1:DC:E1:10:17:57:A7:F9:B4:8D:4C:EB:0C:17:C7:A9:FE:83:2C:5A:09:06:36
+</resources>
