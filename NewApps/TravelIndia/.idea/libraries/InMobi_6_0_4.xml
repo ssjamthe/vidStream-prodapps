@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="InMobi-6.0.4">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/InMobi-6.0.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

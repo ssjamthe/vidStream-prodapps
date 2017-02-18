@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-23.2.1_7345ebba80c8a7dbf4d358ed115e86c492b4f537.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-database-9.4.0_ba8ac2494734a1f80218fd5b9cdcdaf124f7efc4.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/libs/volley.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="04b23f428af24a3b67bb50f584349e24d39c775a">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/volley_99306154df86796a5cc52bbb439d894b3120141e.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-auth-common-9.4.0_b4eef03290e84fc2749bc91cdc116fb808aa4912.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-9.4.0_9559c9d606b556693484053b8b18e0e161d6994d.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-database/0.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c76f6507a42aec274953e882bf3c49a570843ef5">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.firebaseui-firebase-ui-database-0.4.0_befc060ca5481a487fc5de3525203605be577636.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-iid-9.4.0_537488f9b0fdbffb9d1679af9a0272c049c5b512.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.2.1_17509f42a3b15fded29b77ab92951c5992ca7c9d.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-auth-9.4.0_b5d872d004344e08859b536a8f2eaf7bd826f230.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-crash-9.4.0_3ac75d08872d9b41036edbc92bd07ae322f5e730.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-23.2.1_10d5e2f43ede4669c65f4127eb30d8cd48576e64.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/libs/httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f3cf3b25e14d3bca47773e95aa85ea8fefbf8e81">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/httpclient-4.3.6_fcbf0b8df625edbfa23f0b587a5e447ca4a840f1.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-gass-9.4.0_917520ab4c01adb81ad916b17434aec24118dde1.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-auth-base-9.4.0_4a37d6adfd3fb43b952d0d050c93a4ea9b4af70c.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-messaging-9.4.0_0c72ba22574c80c293c66d1cc7054e24a5ca9af8.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-9.4.0_acde93a47ec0bf67df2000e0bb6d90f04103c90c.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-lite-9.4.0_7cde80824bdc7af78af284336b51e48b7b838188.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/support-annotations-23.2.1_fba0144947ca081fe9c7142c01d79c757cd64e2e.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-9.4.0_ac52e69333c40c6e6be2e1abe4248d8c43f88cbb.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/libs/http-core-4.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1bf8391d59bf37ddf2aa51aa90467afd0388bc2c">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/http-core-4.1_9f98ad0d5d8e23f66e75def8f6312e5ba4131010.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/libs/InMobi-6.0.4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="74f4d59c933b43aeb4ea146306da160da7e95b6b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/InMobi-6.0.4_a6697f7a30a6339be074f81b4f4aa4ebe976e955.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-auth-9.4.0_c43624c0c428adaa4afee836b6dd1c4f557b7090.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/picasso-2.4.0_6eb4110a33c04c11dfe5907741de94d8ce452b32.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.2.1_08dc2f26e377ee6d03530e32dec222af7661fc51.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-auth-module-9.4.0_a396c8e51ffa22f4f35f6f85c48409e9216632d9.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-23.2.1_ae5f60931cda50294d3a4857f518c44df4d9ee7a.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-impl-9.4.0_a85392e38950c27f8fcb29116c269a35f660d8aa.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-clearcut-9.4.0_73737843f26031ff931aeb4afc64bfce063d024e.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-config-9.4.0_137dea3019bebe27c31e21f563448237393d8eca.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-appinvite-9.4.0_8abf528a3b22eb186f590de4c568adfde1426705.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-database-connection-9.4.0_d9924c40b3910b377a0c8d3860bd5fd72d41ca90.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/internal_impl-23.2.1_e5be74d60da202fbefd978aa1512ea2530d21910.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/YouTubeAndroidPlayerApi_88f04d643f8b3a6b1ce23e652a30e55d3f59f689.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-9.4.0_c9c82966311feb0215c64693ed2809e62599a1ac.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-common-9.4.0_345a6bfb3b6fea7379406f6dd58510c7102ed874.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/Choregraphy/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tasks-9.4.0_d00ecd0b49b4b68e23064196bcab0edde9812099.jar" />
+    </item>
+
+</items>
