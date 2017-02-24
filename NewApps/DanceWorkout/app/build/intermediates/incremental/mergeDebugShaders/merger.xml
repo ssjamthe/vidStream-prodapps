@@ -1,2 +1,2 @@
 <?xml version="1.0" encoding="utf-8"?>
-<merger version="3"><dataSet config="main"><source path="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/src/debug/shaders"/></dataSet></merger>
+<merger version="3"><dataSet config="main"><source path="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/shaders"/></dataSet><dataSet config="debug"><source path="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/debug/shaders"/></dataSet></merger>

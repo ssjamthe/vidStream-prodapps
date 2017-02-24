@@ -2,256 +2,256 @@
 <items version="2" >
 
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-auth-common-9.4.0_4eee73e0d36a313807a42cabdf60aa60ff5b4b16.jar" />
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-9.4.0_24eff5b50af6a6ba784296cd4d85a343f04cb65b.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/libs/http-core-4.1.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="1bf8391d59bf37ddf2aa51aa90467afd0388bc2c">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/http-core-4.1_60c9bbb16d67f6bdbebd69745352b35dded61662.jar" />
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_940baf18a8f1def1a3825a9f3dd824b5f33ebd88.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/libs/InMobi-5.3.1.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-base-9.4.0_0fe008119a3f91763a85427c8ddde031a5457131.jar" />
+        sha1="379d702534f03409ebdc47f5133309f71cf74138">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/InMobi-5.3.1_bb7608739890ea3f356a4f0169d244736203f9f6.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-impl-9.4.0_4f234918423979d7239fdc997a9acd5d622f3762.jar" />
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.4.0_3f01b998dc977a4ada1a0c4aed50a7fd9468b689.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-gass-9.4.0_41f6093160dd12aacd54da47efb730383ff96b4a.jar" />
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.4.0_faf57e8f0f91f11a4b4aa1d244d423f03fbbd37b.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-crash-9.4.0_d4959e56a0af7a28766b69d8966a4125c9b6da0e.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/internal_impl-23.2.1_d2cbab55a04e05f3464c0841c2a4cd936cddf169.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_061a8fd67406409bbe15b307aa44944960ff5ffb.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-database/0.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/libs/http-core-4.1.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="c76f6507a42aec274953e882bf3c49a570843ef5">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.firebaseui-firebase-ui-database-0.4.0_40d329571f13b1757ecb4b373339a3d74d7e3a9c.jar" />
+        sha1="1bf8391d59bf37ddf2aa51aa90467afd0388bc2c">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/http-core-4.1_d23044b1516d085d9a4f553a0f700fc2d962197e.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-database-9.4.0_1ae3899c3b298783cebec61e062a032d995f8cca.jar" />
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.4.0_132cd9577142b42803a055bcfa8266ec491a9a6f.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/libs/httpclient-4.3.6.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.android.support-support-v4-23.2.1_d30984c1d143d995fc1afcb3b8cc46d8bc8a097c.jar" />
+        sha1="f3cf3b25e14d3bca47773e95aa85ea8fefbf8e81">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6_88a279c0ca37fd9e575f75cde5337eddf8b1dc74.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-basement-9.4.0_82c64cc703a94a6a21c3112ef2c0bb611d4a2e9b.jar" />
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-config-9.4.0_9c6c3176d1d8314014cb55d8f1e9a18d45ab96ff.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi_ad608c0adbcf9b1b0b2cb4b63816746c949b41af.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.4.0_fc61df5f4c22f321fb68f7da6b1e4bc946191f98.jar" />
     </item>
     <item
         jar="/Users/swapnil/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/support-annotations-23.2.1_fba0144947ca081fe9c7142c01d79c757cd64e2e.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_fba0144947ca081fe9c7142c01d79c757cd64e2e.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="673d77a5bbddd766037f088e775df525c46407f0">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.android.support-support-vector-drawable-23.2.1_86a764e516026c4d84070c57ba3a9941703c70a4.jar" />
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.4.0_25cb8505704b8e8054a99b81fdbae279d89ab060.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/libs/volley.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="04b23f428af24a3b67bb50f584349e24d39c775a">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/volley_85206c98d8c2753b9776ea873a2888cef7dedf5f.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-database/0.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="c76f6507a42aec274953e882bf3c49a570843ef5">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.firebaseui-firebase-ui-database-0.4.0_e0160ed025aed47090ecdae9569f8e62441f7020.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.4.0_902e43f44c0a79b1dc84559c04f8758515c63e4e.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.1_d10c79706e10f7a49d71bdad1114403f6a037c54.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.4.0_9a15feb636c4c76105b2f7023815a76cc78668c4.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.4.0_2fc4d9a08e3a80dcfffdc23bc8045e234872144d.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-clearcut-9.4.0_34f25a89787a0bde20ac4ddcbcb1fa115802b666.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.4.0_b29abb0aaac31827ba6bc9c14e120ced6219dcf2.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-config-9.4.0_4be94ec89e1d993300f84524dd30ca457334a516.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-tasks-9.4.0_4c56fbe4fba38008c2426e90c45c87371477aa1e.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="4348dd26d83b56c2058b768222c3271bce911724">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-auth-9.4.0_c191692fc1217476394bf8b00ab7604d7e333c47.jar" />
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-9.4.0_ff4e0c56a8b56dc6ab22ac8479fdb97c1d5fa624.jar" />
     </item>
     <item
         jar="/Users/swapnil/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.4.0/f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2/picasso-2.4.0.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="f36d2d4e3a36b3259aaf9d004d29b4cdc6c1bfb2">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/picasso-2.4.0_6eb4110a33c04c11dfe5907741de94d8ce452b32.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/picasso-2.4.0_6eb4110a33c04c11dfe5907741de94d8ce452b32.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/libs/volley.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="04b23f428af24a3b67bb50f584349e24d39c775a">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/volley_adb8586ddbe4fe800c44702fe0c441ec32fed6ec.jar" />
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.4.0_89463c7e37c77c936fa35b6e4bf29e0378a6a229.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-common-9.4.0_8f94ffe05f638ee3da09330241974c1697d93926.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-auth-9.4.0_832cc5be1d4f8ecb9eebc2b86c5728b7a1fc3f73.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/libs/InMobi-5.3.1.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="379d702534f03409ebdc47f5133309f71cf74138">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/InMobi-5.3.1_102b6dd763d198ddb6007645f8e7834b037fbfbf.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="3b7173b3df4c7029699919414400041f64519e34">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-iid-9.4.0_3499fc4986611cac914b260bd0a739c7ab639c13.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/libs/YouTubeAndroidPlayerApi.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/YouTubeAndroidPlayerApi_62fdae2830517141c8bffcceabecbd563798a649.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-lite-9.4.0_4e7738f3aa88517d42d74ff19f1e613fb1b3d89a.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.android.support-appcompat-v7-23.2.1_48524d627f7e4dc39d79817a4d4b27ddb34ae524.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_fc0988bb77c18f310480daa140d0d41521b6351b.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/libs/httpclient-4.3.6.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="f3cf3b25e14d3bca47773e95aa85ea8fefbf8e81">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/httpclient-4.3.6_802a0c4c07fe796fcfa2d3853c28cd656f0cf467.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-analytics-9.4.0_026b5fd08baced874f5bce63212a084d15d02e8a.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.4.0_0a0ac570fa8caef142f6b13ceca20e792e0ac52b.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.android.support-recyclerview-v7-23.2.1_08ed1697103c321ae9eb6a1b243801d5c8eb6ec8.jar" />
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.4.0_ab6b3c83baac198089dfa2b3d73c294b799b38f1.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.android.support-animated-vector-drawable-23.2.1_b1f6a437f77911e49601171c0b276043e45bbb28.jar" />
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.4.0_bf27b35e24d75bc3b342443a4bf9bcae036c368a.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-auth-module-9.4.0_9d078ce272c7d86204f1508cb4370142d6e57628.jar" />
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.4.0_56a313bfcfaa4cd5dae31c42dfdd922826e3c4f5.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="736d8893fb702f128a153c9d87c9c29724d37872">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-appinvite-9.4.0_d5756b245f6c56d42b9b0e0c38991d430e9e2264.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-9.4.0_4d13cdb71ed15ceecbedd16206ebe7876844cbc7.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-messaging-9.4.0_36661f7ba127300655486f0e954b3404be7886fb.jar" />
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_a490223d31f24c281f3f974ff07cc36b2f2be017.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_b98615da67f05f31f38e42d35445d9286f3b3952.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-ads-9.4.0_6df18332a3dc8d74acb26a92361bc5d70f154e39.jar" />
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.4.0_6a7fb92081aa49488dcb0c3930dc051d5a74cefd.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.firebase-firebase-database-connection-9.4.0_86edb071c0f56e80d746758aee10e6d96579c5f1.jar" />
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.4.0_a956e1dcec0cbf3e62015db12183a79a9c399c5c.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/pre-dexed/release/com.google.android.gms-play-services-auth-base-9.4.0_32a352c26dd3fe9fad2ce7a6551841eb7de85104.jar" />
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.4.0_1bff248d512e463ae5cf242adbef3a5d40caa19b.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.4.0_22b935e35b17f3dc918378be4489bc33edda5d6e.jar" />
     </item>
 
 </items>

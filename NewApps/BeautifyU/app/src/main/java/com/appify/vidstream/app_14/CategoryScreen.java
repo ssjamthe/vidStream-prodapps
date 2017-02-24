@@ -761,7 +761,7 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
                             videoGridList.setNumColumns(1);
                             flag = true;
                         }
-                        String selectedOrder = orderText.getText().toString();
+                        SelectedOrderValue = orderText.getText().toString();
 
                         System.out.println("Page No Order = " + PAGE_NO);
                         System.out.println("Entries Order = " + EntriesPerPage_Position);
@@ -769,7 +769,7 @@ public class CategoryScreen extends AppCompatActivity implements ApplicationCons
                         System.out.println("Requesting and calling method for getting Videos");
 
                         //Requesting and calling method for getting Videos
-                        LoadVideos(APP_ID, OrderAttributeCategoryValue, selectedOrder, CatPageNo, EntriesPerPage_Position, getdeviceID);
+                        LoadVideos(APP_ID, OrderAttributeCategoryValue, SelectedOrderValue, CatPageNo, EntriesPerPage_Position, getdeviceID);
                     }catch (Exception e){
                         e.printStackTrace();
                         FirebaseCrash.log("Exception in orderBySpin.setOnItemSelectedListener:CategoryScreen.java >"+e);

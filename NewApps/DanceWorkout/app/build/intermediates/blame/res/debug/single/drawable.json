@@ -1,19 +1,27 @@
 [
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/action_bar_rect.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/src/main/res/drawable/action_bar_rect.xml"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_plus_signin_btn_text_light.xml"
     },
     {
-        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/action_bar_rect.xml",
-        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/src/main/res/drawable/action_bar_rect.xml"
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/action_bar_rect.xml",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/src/main/res/drawable/action_bar_rect.xml"
     },
     {
-        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
-        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_plus_signin_btn_text_light.xml"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
@@ -26,6 +34,14 @@
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/ic_action_overflow.png",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/src/main/res/drawable/ic_action_overflow.png"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/work_in_progress_icon.png",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/work_in_progress_icon.png"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_btn_borderless_material.xml"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_light.xml",
@@ -48,6 +64,10 @@
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_list_selector_holo_light.xml"
     },
@@ -60,12 +80,32 @@
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_cab_background_top_material.xml"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/rounded_edit.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/rounded_edit.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_btn_check_material.xml"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_dark.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/back_gl.png",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/back_gl.png"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_light.xml",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_plus_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
@@ -74,6 +114,14 @@
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_full_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_ratingbar_full_material.xml"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/exit_icon.png",
@@ -88,8 +136,16 @@
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_light.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_google_signin_btn_icon_light.xml"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/close_small_red.png",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/src/main/res/drawable/close_small_red.png"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_text_cursor_material.xml"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/back_gl.png",
@@ -108,6 +164,14 @@
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_google_signin_btn_icon_light.xml"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_plus_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/exit_icon.png",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/src/main/res/drawable/exit_icon.png"
     },
@@ -124,20 +188,32 @@
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
-        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_item_background_holo_dark.xml"
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
-        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_tab_indicator_material.xml"
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_item_background_holo_light.xml"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/rect_back_image.xml",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/src/main/res/drawable/rect_back_image.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/exit_icon.png",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/exit_icon.png"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/close_small_red.png",
@@ -152,8 +228,28 @@
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_seekbar_track_material.xml"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/ic_action_refresh.png",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/ic_action_refresh.png"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_text_light.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_light.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_dialog_material_background_light.xml"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/rounded_edit.xml",
@@ -164,6 +260,10 @@
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background_dark.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_dialog_material_background_dark.xml"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_cab_background_top_material.xml"
     },
@@ -172,8 +272,16 @@
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/src/main/res/drawable/menu_background.xml"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/ic_action_overflow.png",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/ic_action_overflow.png"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/ic_action_view_as_grid.png",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/ic_action_view_as_grid.png"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
@@ -192,12 +300,36 @@
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_btn_colored_material.xml"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_btn_radio_material.xml"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/layout_background.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/layout_background.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/ic_home.png",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/ic_home.png"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/ic_action_view_as_list.png",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/ic_action_view_as_list.png"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/default_background.jpg",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/default_background.jpg"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/ic_action_view_as_list.png",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/src/main/res/drawable/ic_action_view_as_list.png"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/close_small_red.png",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/close_small_red.png"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
@@ -212,8 +344,16 @@
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_dialog_material_background_light.xml"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/menu_background.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/menu_background.xml"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/ic_action_view_as_list.png",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/src/main/res/drawable/ic_action_view_as_list.png"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_cab_background_internal_bg.xml"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/nointernetconn.png",
@@ -248,12 +388,32 @@
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/src/main/res/drawable/ic_action_view_as_grid.png"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_edit_text_material.xml"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/ic_home.png",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/src/main/res/drawable/ic_home.png"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/rect_back_image.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/rect_back_image.xml"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/form_icon.png",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/form_icon.png"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/ic_action_back.png",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/ic_action_back.png"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
@@ -264,8 +424,20 @@
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_list_selector_holo_dark.xml"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/common_google_signin_btn_icon_dark.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_google_signin_btn_icon_dark.xml"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/ic_action_back.png",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/src/main/res/drawable/ic_action_back.png"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_item_background_holo_light.xml"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_icon_dark.xml",
@@ -278,6 +450,10 @@
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/action_bar_rect.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/action_bar_rect.xml"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/ic_action_overflow.png",
@@ -312,6 +488,14 @@
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/src/main/res/drawable/form_icon.png"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/nointernetconn.png",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/nointernetconn.png"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
@@ -322,6 +506,10 @@
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/submit_button.png",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/src/main/res/drawable/submit_button.png"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/common_plus_signin_btn_text_dark.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_plus_signin_btn_text_dark.xml"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
@@ -368,6 +556,14 @@
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_plus_signin_btn_icon_light.xml"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/submit_button.png",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/src/main/res/drawable/submit_button.png"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_seekbar_track_material.xml"
     },
@@ -392,12 +588,24 @@
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/res/drawable/common_plus_signin_btn_text_dark.xml"
     },
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/form_icon.png",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/src/main/res/drawable/form_icon.png"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/layout_background.xml",
@@ -414,6 +622,10 @@
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/default_background.jpg",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/src/main/res/drawable/default_background.jpg"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/DanceWorkout/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/res/drawable/abc_tab_indicator_material.xml"
     },
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/DanceWorkout/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",

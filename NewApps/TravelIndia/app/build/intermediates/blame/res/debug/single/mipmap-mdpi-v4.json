@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/icon.png",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/src/main/res/mipmap-mdpi/icon.png"
+    },
+    {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/res/merged/debug/mipmap-mdpi-v4/icon.png",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/src/main/res/mipmap-mdpi/icon.png"
     },

@@ -16,11 +16,11 @@
         <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-9.4.0_e47d3ea636ac013ad1950092d92829f31a06da26.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_611cba85ce70707ebc8a564fbb443c5a83d40dc4.jar" />
+        sha1="a440fb3fec30ff925e9f601cc458fb6671834cb2">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.4.0_32b7e8bcf6baca630b7aaeac6054e22f78c939da.jar" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
@@ -37,11 +37,256 @@
         <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.4.0_7747173e954fae91a03d45300cd57c2b7e071f7d.jar" />
     </item>
     <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="58c9f5ee817fdb8b658fd7455fadfb74119f7ee9">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-base-9.4.0_89f2d0d579f2c1199cfaa38de1b23736a7388074.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.4.0_7938d4750ea67c3830e5684fecd8f78fde6427f9.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.4.0_b463f4f76c159321d7f57283520fa8e9d9af1783.jar" />
+    </item>
+    <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
         <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_bda1850338ffb84affb086f9e3cf1597c42ae69b.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-9.4.0_1a0b98ab753db11964a30f3d4270963f062c52be.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3b7173b3df4c7029699919414400041f64519e34">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.4.0_4a243511137d15658b13f4e8d8d3e9dc08f2f434.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_fba0144947ca081fe9c7142c01d79c757cd64e2e.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.4.0_53a57c8b044e493d191e64723ce31855c4349e7c.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="34762013d39dbe6c656050589c44e8b61b9a2c5d">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-common-9.4.0_b1ed986d0a4048d882d77bed749489b26898a2db.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.4.0_703b317b8cebce5ce58ded3f4c6c04519099aacb.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/libs/httpclient-4.3.6.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="f3cf3b25e14d3bca47773e95aa85ea8fefbf8e81">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6_36b5230a17c27f4f577fc67d403c2cb0cc33e7e6.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.4.0_185d9d36d80bce1fa44fdcf7dabbd2a1dd55358f.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.4.0_48ef1e5d2268f937fe7f893f4238281bc7e7d245.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.4.0_a448bd191fca7b0e6dc1d4e14ed24d9bfcf72180.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_a7434dc8641a6b864eeac3096d59c4acb99bcc24.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.4.0_a69c1097316fa29b0753bb6b7c332c8232830568.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/libs/InMobi-6.0.4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="74f4d59c933b43aeb4ea146306da160da7e95b6b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/InMobi-6.0.4_f540aad7c95d20c46cc334d36318b268ddead33b.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_b5d8d0d10e80d81739ec7c9ce9b7630feeeb5abb.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.4.0_d1e64016527dee71e247694c9cff2bd460f27935.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="0e4d53465cc141bec58f18a894e4c4e80633fa32">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-connection-9.4.0_63db0d8898f3f982cd654dac2d3c73c065b9cf6d.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-9.4.0_a24be768912ae157b11140abb7d8b7211c4ca30a.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3be474b1b21b31cf2fa93fe6bd641ae108d96452">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.2.1_9d20e183289f93d14fd43d615bc5ca067397f191.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.4.0_90bdfc75ef9f8d662fd4af6bbc6c2d12de81b206.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.1_134fcf1bf75b949999a79cbb1c9738fa2f6b7b2f.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/libs/InMobi-6.0.4.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="74f4d59c933b43aeb4ea146306da160da7e95b6b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/InMobi-6.0.4_862ff48ef553d313b3d68d83c426292764d9ac32.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="dd763e0269f2854f5828ae62dd968b80bff6a0db">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.4.0_82d8d616e28328e61e659ec6dc3e99aa278900b9.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/libs/http-core-4.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1bf8391d59bf37ddf2aa51aa90467afd0388bc2c">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/http-core-4.1_35c8e68a1171b7c98a17ba27a0d58ad5fee9aa98.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.1_bda37601d6d8a5ae7ed218f0546cf679756cc154.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="e4d0cbb0b999604b349062f0214a0a228a7fd151">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_b719617d36cba8021f0a8ba541a7e516eb5a62cf.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="dab6944860c986980dcc6002a5ca2f127b587317">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-config-9.4.0_5713b80734c13339b4bed3772c2090f43ebc5c36.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.4.0_9d84be42893f8aada53aba5ac94f4911886c6c6f.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="673d77a5bbddd766037f088e775df525c46407f0">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-23.2.1_1228f05dae514ce7733d49f8bd2ca32ad8ba7ded.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/libs/volley.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="04b23f428af24a3b67bb50f584349e24d39c775a">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/volley_6186c3618802dea607ffef304a0e597f546ddd2e.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="3469cb457f10f74c28cbc05f069b6c894f6cbdd0">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-23.2.1_611cba85ce70707ebc8a564fbb443c5a83d40dc4.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="4348dd26d83b56c2058b768222c3271bce911724">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-9.4.0_8d0e5747c2fd9d056724d352d463613660c34d11.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-9.4.0_df0f47107c8294188500db24f26720da9478395e.jar" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.1/jars/classes.jar"
@@ -58,6 +303,27 @@
         <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.firebaseui-firebase-ui-database-0.4.0_867292657840a79965acf4ca5047bc7164bd656d.jar" />
     </item>
     <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="d463d8eec1e6c1feef2cec6675ccb47e37c12ee1">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-9.4.0_9be2d3286a6b93fa18dca5b5d729c683a8ad93d6.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_dca779657a5464b2953a51873045e77a9ee8e7e5.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="6bc41d9d6fd12d2ef23c785a259011001f4a1a5b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-module-9.4.0_301294326b5785bfea64fe8e5f7de58eac999e86.jar" />
+    </item>
+    <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
@@ -72,18 +338,11 @@
         <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.2.1_52cc99a0edd6509f730f0e38fd74b192103d12fb.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.firebaseui/firebase-ui-database/0.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="3b7173b3df4c7029699919414400041f64519e34">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-iid-9.4.0_4a243511137d15658b13f4e8d8d3e9dc08f2f434.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.1/support-annotations-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="ccb693bc0774fcb637246f7360de25b4af7df318">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.1_fba0144947ca081fe9c7142c01d79c757cd64e2e.jar" />
+        sha1="c76f6507a42aec274953e882bf3c49a570843ef5">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.firebaseui-firebase-ui-database-0.4.0_fff720a761513f27c74756514c5afcda3b6ed9f9.jar" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
@@ -107,13 +366,6 @@
         <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-impl-9.4.0_7fe9e1a92bac76ed47f9b124555a3a7969f4a87e.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.4.0_703b317b8cebce5ce58ded3f4c6c04519099aacb.jar" />
-    </item>
-    <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
@@ -121,18 +373,32 @@
         <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-clearcut-9.4.0_75275ca3b130bab35833e76c2b5d6e9c8c4218b4.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.4.0_48ef1e5d2268f937fe7f893f4238281bc7e7d245.jar" />
+        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.4.0_0a74c1f30acb716f844e36f4d9b7ede62f708f3e.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="147edbec6bcea71fd675ecc63cae3319637ec2b4">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-ads-lite-9.4.0_a448bd191fca7b0e6dc1d4e14ed24d9bfcf72180.jar" />
+        sha1="736d8893fb702f128a153c9d87c9c29724d37872">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-9.4.0_2bb7132a9de0fcd3f0b60ea06dd02890cf3ba880.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.4.0_60bb1d4d4fedf8ecc4f17d4afa6423751efd6700.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/libs/http-core-4.1.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="1bf8391d59bf37ddf2aa51aa90467afd0388bc2c">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/http-core-4.1_448e34d3d66eb1a36e3bd61b7f897d2c09a2b989.jar" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/libs/YouTubeAndroidPlayerApi.jar"
@@ -149,6 +415,13 @@
         <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/picasso-2.4.0_6eb4110a33c04c11dfe5907741de94d8ce452b32.jar" />
     </item>
     <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/libs/YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/YouTubeAndroidPlayerApi_4d70e1a66bb60e8d31d5fe2a4993a4cf6fbdf79f.jar" />
+    </item>
+    <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
@@ -156,11 +429,25 @@
         <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-appinvite-9.4.0_1d3caf99e1688418162b03566a90aa85a4dcb3dd.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="88848548ab56d4fbf3d2d1b0c85bf1ff9b4c1f4b">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-analytics-9.4.0_a69c1097316fa29b0753bb6b7c332c8232830568.jar" />
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-9.4.0_500a2e7068530e23fdbebbb0821019cab66fca2c.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="b15f898c9047f9d612a63000126b485dd024eaac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-gass-9.4.0_9e16df1363cf9bed5ad878d592e69ae06e1a26c1.jar" />
+    </item>
+    <item
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.4.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.3"
+        sha1="18b5697c65c4fe5b7381613b8b8ae9ac52e26fa7">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-common-9.4.0_0dcf1991a85d10f709f633f23058a5aefe7ed0df.jar" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.4.0/jars/classes.jar"
@@ -184,25 +471,11 @@
         <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6_8bc4d9a462f0bd8ee3f9412651634d781fdc5a45.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.1/jars/libs/internal_impl-23.2.1.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="607a3d0b8013b4ccbfeb0b7cb293351994e021fb">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.1_b5d8d0d10e80d81739ec7c9ce9b7630feeeb5abb.jar" />
-    </item>
-    <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
         sha1="4b630471536351be7c3c3100735c75b7ad2cbd84">
         <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-auth-9.4.0_e533ece6c51c82d546703b6b12e2d8175c60058d.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.4.0_d1e64016527dee71e247694c9cff2bd460f27935.jar" />
     </item>
     <item
         jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.4.0/jars/classes.jar"
@@ -212,46 +485,11 @@
         <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-config-9.4.0_1e8d677b5e6b8b54870d691c3883dcd8fe8a3d4b.jar" />
     </item>
     <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.4.0/jars/classes.jar"
+        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.4.0/jars/classes.jar"
         jumboMode="false"
         revision="23.0.3"
-        sha1="4348dd26d83b56c2058b768222c3271bce911724">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-auth-9.4.0_a24be768912ae157b11140abb7d8b7211c4ca30a.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="b9d48baf96c7e187991a9befa833bebd181960a9">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-crash-9.4.0_90bdfc75ef9f8d662fd4af6bbc6c2d12de81b206.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/libs/InMobi-6.0.4.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="74f4d59c933b43aeb4ea146306da160da7e95b6b">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/InMobi-6.0.4_862ff48ef553d313b3d68d83c426292764d9ac32.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/libs/http-core-4.1.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="1bf8391d59bf37ddf2aa51aa90467afd0388bc2c">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/http-core-4.1_35c8e68a1171b7c98a17ba27a0d58ad5fee9aa98.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.2.1/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="e3885783ff8926ed9e2fdcd16816c2e1e73e7aee">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.2.1_bda37601d6d8a5ae7ed218f0546cf679756cc154.jar" />
-    </item>
-    <item
-        jar="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.4.0/jars/classes.jar"
-        jumboMode="false"
-        revision="23.0.3"
-        sha1="84bf369090a8f7e293817efbd6ccf31ada1be32b">
-        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps-new/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-database-9.4.0_9d84be42893f8aada53aba5ac94f4911886c6c6f.jar" />
+        sha1="4b6d9b70f93bbeb872d0948bc064ae3f3f2bcbac">
+        <dex dex="/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/TravelIndia/app/build/intermediates/pre-dexed/debug/com.google.firebase-firebase-messaging-9.4.0_fb293d90db6193bac1ae72bb0c379b8c48d465e6.jar" />
     </item>
 
 </items>

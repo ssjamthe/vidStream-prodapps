@@ -6,5 +6,9 @@
     {
         "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/Choregraphy/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/icon.png",
         "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/Choregraphy/app/src/main/res/mipmap-xxhdpi/icon.png"
+    },
+    {
+        "merged": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/Choregraphy/app/build/intermediates/res/merged/debug/mipmap-xxhdpi-v4/icon.png",
+        "source": "/Users/swapnil/work/appify/gitrepos/vidStream-prodapps/NewApps/Choregraphy/app/src/main/res/mipmap-xxhdpi/icon.png"
     }
 ]
